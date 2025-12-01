@@ -1,4 +1,6 @@
 import bookCover from "@/assets/book-cover.webp";
+import amazonIcon from "@/assets/amazon-icon.webp";
+import googleDocsIcon from "@/assets/google-docs-icon.webp";
 import { Button } from "@/components/ui/button";
 
 const BookShowcase = () => {
@@ -47,11 +49,11 @@ const BookShowcase = () => {
                   className="flex items-start gap-4 group"
                 >
                   <div className="flex-shrink-0 mt-1">
-                    <svg className="w-16 h-16" viewBox="0 0 100 100" fill="none">
-                      <text x="10" y="60" fontSize="60" fontWeight="bold" fill="currentColor" className="text-foreground">a</text>
-                      <path d="M 15 70 Q 50 85, 85 70" stroke="#FF9900" strokeWidth="4" fill="none" strokeLinecap="round"/>
-                      <circle cx="85" cy="70" r="2" fill="#FF9900"/>
-                    </svg>
+                    <img 
+                      src={amazonIcon} 
+                      alt="Amazon" 
+                      className="w-16 h-16 object-contain"
+                    />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
@@ -70,14 +72,11 @@ const BookShowcase = () => {
                   className="flex items-start gap-4 group"
                 >
                   <div className="flex-shrink-0 mt-1">
-                    <svg className="w-16 h-16" viewBox="0 0 100 100" fill="none">
-                      <rect x="20" y="10" width="60" height="75" rx="4" fill="#4285F4"/>
-                      <rect x="20" y="15" width="60" height="8" rx="2" fill="white" opacity="0.9"/>
-                      <line x1="28" y1="35" x2="72" y2="35" stroke="white" strokeWidth="3" opacity="0.8" strokeLinecap="round"/>
-                      <line x1="28" y1="45" x2="72" y2="45" stroke="white" strokeWidth="3" opacity="0.8" strokeLinecap="round"/>
-                      <line x1="28" y1="55" x2="65" y2="55" stroke="white" strokeWidth="3" opacity="0.8" strokeLinecap="round"/>
-                      <path d="M 75 75 L 75 100 L 50 85 L 25 100 L 25 75" fill="#4285F4"/>
-                    </svg>
+                    <img 
+                      src={googleDocsIcon} 
+                      alt="Google Docs" 
+                      className="w-16 h-16 object-contain"
+                    />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
