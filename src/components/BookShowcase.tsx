@@ -38,40 +38,57 @@ const BookShowcase = () => {
             </p>
 
             {/* Action Buttons */}
-            <div className="space-y-4 pt-4">
-              <a 
-                href="https://amazon.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <Button 
-                  variant="default" 
-                  size="lg"
-                  className="w-full md:w-auto bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-lg px-8"
+            <div className="space-y-8 pt-4">
+              <div className="space-y-3">
+                <a 
+                  href="https://amazon.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 group"
                 >
-                  📖 READ ON AMAZON
-                </Button>
-              </a>
-              <p className="text-sm text-muted-foreground">
-                Explore the book on Amazon — Kindle edition available.
-              </p>
+                  <div className="flex-shrink-0 mt-1">
+                    <svg className="w-16 h-16" viewBox="0 0 100 100" fill="none">
+                      <text x="10" y="60" fontSize="60" fontWeight="bold" fill="currentColor" className="text-foreground">a</text>
+                      <path d="M 15 70 Q 50 85, 85 70" stroke="#FF9900" strokeWidth="4" fill="none" strokeLinecap="round"/>
+                      <circle cx="85" cy="70" r="2" fill="#FF9900"/>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+                      READ ON AMAZON
+                    </h3>
+                    <p className="text-muted-foreground">
+                      Explore the book on Amazon — Kindle edition available.
+                    </p>
+                  </div>
+                </a>
+              </div>
 
-              <a 
-                href="#ukrainian" 
-                className="block mt-6"
-              >
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="w-full md:w-auto border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-lg px-8"
+              <div className="border-t border-border pt-8">
+                <a 
+                  href="#ukrainian" 
+                  className="flex items-start gap-4 group"
                 >
-                  📚 ЧИТАТИ УКРАЇНСЬКОЮ
-                </Button>
-              </a>
-              <p className="text-sm text-muted-foreground">
-                Завантажити безкоштовну українську версію цієї книги.
-              </p>
+                  <div className="flex-shrink-0 mt-1">
+                    <svg className="w-16 h-16" viewBox="0 0 100 100" fill="none">
+                      <rect x="20" y="10" width="60" height="75" rx="4" fill="#4285F4"/>
+                      <rect x="20" y="15" width="60" height="8" rx="2" fill="white" opacity="0.9"/>
+                      <line x1="28" y1="35" x2="72" y2="35" stroke="white" strokeWidth="3" opacity="0.8" strokeLinecap="round"/>
+                      <line x1="28" y1="45" x2="72" y2="45" stroke="white" strokeWidth="3" opacity="0.8" strokeLinecap="round"/>
+                      <line x1="28" y1="55" x2="65" y2="55" stroke="white" strokeWidth="3" opacity="0.8" strokeLinecap="round"/>
+                      <path d="M 75 75 L 75 100 L 50 85 L 25 100 L 25 75" fill="#4285F4"/>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+                      ЧИТАТИ УКРАЇНСЬКОЮ
+                    </h3>
+                    <p className="text-muted-foreground">
+                      Українське видання — читати в Google Docs.
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
