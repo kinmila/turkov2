@@ -5,25 +5,25 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold tracking-wider">
-            STRANGE<sup className="text-sm">2</sup>LAB
+          <Link to="/" className="text-2xl font-serif font-bold text-primary hover:text-gold transition-colors">
+            Serhii "KM" Turkov
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
-            <Link to="#about" className="text-foreground/80 hover:text-foreground transition-colors">
-              About us
+            <Link to="#about" className="text-foreground/80 hover:text-primary transition-colors">
+              About
             </Link>
-            <Link to="#book" className="text-foreground/80 hover:text-foreground transition-colors">
+            <Link to="#the-book" className="text-foreground/80 hover:text-primary transition-colors">
               The Book
             </Link>
-            <Link to="#lexicon" className="text-foreground/80 hover:text-foreground transition-colors">
+            <Link to="#lexicon" className="text-foreground/80 hover:text-primary transition-colors">
               The Lexicon
             </Link>
-            <Link to="#games" className="text-foreground/80 hover:text-foreground transition-colors">
+            <Link to="#games" className="text-foreground/80 hover:text-primary transition-colors">
               Games
             </Link>
-            <Link to="#contact" className="text-foreground/80 hover:text-foreground transition-colors">
-              Contact us
+            <Link to="#contact" className="text-foreground/80 hover:text-primary transition-colors">
+              Contact
             </Link>
           </div>
 

@@ -34,7 +34,7 @@ const BookShowcase = () => {
             </p>
 
             <p className="text-foreground/90 leading-relaxed">
-              The Touch of Truth is an invitation. A doorway into a new world — the one we are sensing, sketching, testing into being through <span className="text-primary">Strange²Lab</span>. Together, we explore the deep shifts unfolding in how we relate to time, presence, community, knowledge, language, silence, and action.
+              The Touch of Truth is an invitation. A doorway into a new world — exploring the deep shifts unfolding in how we relate to time, presence, community, knowledge, language, silence, and action.
             </p>
 
             {/* Action Buttons */}
