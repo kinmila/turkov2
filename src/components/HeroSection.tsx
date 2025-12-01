@@ -7,7 +7,7 @@ const HeroSection = () => {
             THE BOOK
           </h1>
           <p className="text-muted-foreground text-lg">
-            Strange²Lab &gt; The Book
+            Serhii "KM" Turkov &gt; The Book
           </p>
         </div>
       </div>
