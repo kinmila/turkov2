@@ -1,4 +1,4 @@
-import bookCover from "@/assets/book-cover.jpg";
+import bookCover from "@/assets/book-cover.webp";
 import { Button } from "@/components/ui/button";
 
 const BookShowcase = () => {
