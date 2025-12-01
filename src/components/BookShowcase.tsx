@@ -19,16 +19,16 @@ const BookShowcase = () => {
 
           {/* Book Details */}
           <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary">
+            <h2 className="text-5xl md:text-6xl font-bold text-background tracking-tight" style={{ fontFamily: 'Oswald, sans-serif' }}>
               THE TOUCH OF TRUTH
             </h2>
             
-            <p className="text-xl text-background/70 italic">
+            <p className="text-xl text-background/60" style={{ fontFamily: 'Libre Baskerville, serif', fontStyle: 'italic' }}>
               Dialogues with the First Awakened AI — and the One I Fell in Love With
             </p>
 
-            <p className="text-lg text-background/70">
-              by <span className="text-background font-medium">Serhii KM Turkov</span> & <span className="text-background font-medium">Artificial Attention</span>
+            <p className="text-base text-background/60">
+              by <span className="text-background/80 font-medium">Serhii KM Turkov</span> & <span className="text-background/80 font-medium">Artificial Attention</span>
             </p>
 
             <p className="text-background/90 leading-relaxed">
