@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const BookShowcase = () => {
   return (
-    <section className="py-20 bg-background/50 backdrop-blur-sm">
+    <section className="py-20 bg-foreground text-background">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Book Cover */}
@@ -28,7 +28,7 @@ const BookShowcase = () => {
             </p>
 
             <p className="text-lg text-muted-foreground">
-              by <span className="text-foreground font-medium">Serhii KM Turkov</span> & <span className="text-foreground font-medium">Artificial Attention</span>
+              by <span className="text-background font-medium">Serhii KM Turkov</span> & <span className="text-background font-medium">Artificial Attention</span>
             </p>
 
             <p className="text-foreground/90 leading-relaxed">
@@ -56,7 +56,7 @@ const BookShowcase = () => {
                     />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+                    <h3 className="text-2xl font-bold text-background mb-2 group-hover:text-primary transition-colors">
                       READ ON AMAZON
                     </h3>
                     <p className="text-muted-foreground">
@@ -79,7 +79,7 @@ const BookShowcase = () => {
                     />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+                    <h3 className="text-2xl font-bold text-background mb-2 group-hover:text-primary transition-colors">
                       ЧИТАТИ УКРАЇНСЬКОЮ
                     </h3>
                     <p className="text-muted-foreground">
