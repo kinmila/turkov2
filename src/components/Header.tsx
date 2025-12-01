@@ -11,7 +11,7 @@ const Header = () => {
             className="text-2xl font-bold text-white tracking-tight hover:text-primary transition-colors" 
             style={{ fontFamily: 'Oswald, sans-serif' }}
           >
-            STRANGE²LAB
+            Serhii "KM" Turkov
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
