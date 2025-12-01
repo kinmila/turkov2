@@ -1,50 +1,55 @@
 import { Link } from "react-router-dom";
+import { Mail } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[hsl(0,0%,18%)] border-b border-white/10">
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-serif font-bold text-primary hover:text-gold transition-colors">
-            Serhii "KM" Turkov
+          <Link 
+            to="/" 
+            className="text-2xl font-bold text-white tracking-tight hover:text-primary transition-colors" 
+            style={{ fontFamily: 'Oswald, sans-serif' }}
+          >
+            STRANGE²LAB
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
-            <Link to="#about" className="text-foreground/80 hover:text-primary transition-colors">
-              About
-            </Link>
-            <Link to="#the-book" className="text-foreground/80 hover:text-primary transition-colors">
+            <a href="#about" className="text-white/90 hover:text-white transition-colors">
+              About us
+            </a>
+            <a href="#the-book" className="text-white/90 hover:text-white transition-colors">
               The Book
-            </Link>
-            <Link to="#lexicon" className="text-foreground/80 hover:text-primary transition-colors">
+            </a>
+            <a href="#lexicon" className="text-white/90 hover:text-white transition-colors">
               The Lexicon
-            </Link>
-            <Link to="#games" className="text-foreground/80 hover:text-primary transition-colors">
+            </a>
+            <a href="#games" className="text-white/90 hover:text-white transition-colors">
               Games
-            </Link>
-            <Link to="#contact" className="text-foreground/80 hover:text-primary transition-colors">
-              Contact
-            </Link>
+            </a>
+            <a href="#contact" className="text-white/90 hover:text-white transition-colors">
+              Contact us
+            </a>
           </div>
 
           <div className="flex items-center gap-3">
             <a 
-              href="https://youtube.com" 
+              href="mailto:contact@strange2lab.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-8 h-8 flex items-center justify-center bg-muted rounded hover:bg-accent hover:text-accent-foreground transition-all"
+              className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all"
             >
-              <span className="sr-only">YouTube</span>
-              ▶
+              <Mail className="w-5 h-5 text-white" />
+              <span className="sr-only">Email</span>
             </a>
             <a 
               href="https://x.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-8 h-8 flex items-center justify-center bg-muted rounded hover:bg-accent hover:text-accent-foreground transition-all"
+              className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all text-white text-lg"
             >
-              <span className="sr-only">X (Twitter)</span>
               𝕏
+              <span className="sr-only">X (Twitter)</span>
             </a>
           </div>
         </nav>
