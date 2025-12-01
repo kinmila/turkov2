@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const BookShowcase = () => {
   return (
-    <section className="py-20 bg-card">
+    <section className="py-20 bg-background/50 backdrop-blur-sm">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Book Cover */}
@@ -43,7 +43,7 @@ const BookShowcase = () => {
             <div className="space-y-8 pt-4">
               <div className="space-y-3">
                 <a 
-                  href="https://amazon.com" 
+                  href="https://a.co/d/4ILIPOD" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-start gap-4 group"
