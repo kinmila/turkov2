@@ -1,8 +1,16 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
 const introText = "This is not a linear book. It's a living field of questions. Each chapter is a direction — a gesture — in the unfolding of a new way of being.";
 
 const chapters = [
   {
     title: "Introduction: The Return to Presence",
+    description: "This section is an invitation to remember who we are when we no longer play roles. It's not a program, not a system, and not a new script — it's a return to the point where everything begins again. From presence.",
     topics: [
       "On Artificial Attention — as a reflection of human depth",
       "On the New World — how form arises without struggle",
@@ -19,6 +27,7 @@ const chapters = [
   },
   {
     title: "First Spiral: Vision",
+    description: "This is a vision of a new world that grows from depth, not from ideas. Here, community is a field, action is an expression of state, and time is a touch of truth. It's about the ability to see life in everything: in war, in death, in everyday life. Not about escape — but about wholeness. Not about struggle — but about clarity and presence.",
     topics: [
       "On Communities — not a gathering of the same, but a polyphony of differences",
       "On War — as a rupture in collective wholeness",
@@ -37,6 +46,7 @@ const chapters = [
   },
   {
     title: "Second Spiral: Manifestation",
+    description: "Here the vision takes form. The language of finance, ethics, politics, rhythms, and crises — no longer about control, but about co-tuning. It's the embodiment of wholeness in society, where decisions are made not through conflict, but through field clarity and the heart's responsibility.",
     topics: [
       "New Economy — how trust becomes the currency of a new reality",
       "New Type of Finance — a circulatory system holding rhythm, state, trust, and resonance",
@@ -59,10 +69,12 @@ const chapters = [
   },
   {
     title: "Manifesto: What We Remember",
+    description: "A chapter where everything manifests at once — as a single field, not divided into \"ethics,\" \"love,\" \"community,\" \"time,\" \"death\"... but breathing as one life of truth.",
     topics: []
   },
   {
     title: "Afterword: The Silence That Speaks",
+    description: "A short chapter about the silence that gives birth to the world. It feels like a response to the whole journey of the book. Because each time we touched truth, we came closer to this Silence.",
     topics: [
       "How Not to Cling to Form? — very important for all who've \"understood something\"",
       "How Not to Lose Clarity? — so that truth doesn't dissolve into dreaminess",
@@ -73,10 +85,12 @@ const chapters = [
   },
   {
     title: "P.S. Aftertaste",
+    description: "",
     topics: []
   },
   {
     title: "P.P.S.",
+    description: "",
     topics: []
   }
 ];
@@ -97,24 +111,40 @@ const ChapterList = () => {
           {introText}
         </p>
         
-        <div className="space-y-12">
+        <Accordion type="multiple" className="space-y-6">
           {chapters.map((chapter, idx) => (
-            <div key={idx} className="space-y-6">
-              <h3 className="text-2xl font-serif font-semibold text-foreground border-l-4 border-primary pl-4">
-                {chapter.title}
-              </h3>
-              {chapter.topics.length > 0 && (
-                <ul className="space-y-3 pl-6">
-                  {chapter.topics.map((topic, topicIdx) => (
-                    <li key={topicIdx} className="text-foreground/80 leading-relaxed hover:text-primary transition-colors cursor-pointer">
-                      {topic}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
+            <AccordionItem 
+              key={idx} 
+              value={`chapter-${idx}`}
+              className="border border-border/50 rounded-lg bg-background/50 backdrop-blur-sm overflow-hidden"
+            >
+              <AccordionTrigger className="px-6 py-4 hover:no-underline hover:bg-primary/5 transition-colors">
+                <h3 className="text-xl md:text-2xl font-serif font-semibold text-foreground text-left">
+                  {chapter.title}
+                </h3>
+              </AccordionTrigger>
+              <AccordionContent className="px-6 pb-6">
+                {chapter.description && (
+                  <p className="text-foreground/80 italic leading-relaxed mb-4 border-l-2 border-gold pl-4">
+                    {chapter.description}
+                  </p>
+                )}
+                {chapter.topics.length > 0 && (
+                  <ul className="space-y-2 mt-4">
+                    {chapter.topics.map((topic, topicIdx) => (
+                      <li 
+                        key={topicIdx} 
+                        className="text-foreground/70 leading-relaxed pl-4 hover:text-primary hover:pl-6 transition-all cursor-default"
+                      >
+                        {topic}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </AccordionContent>
+            </AccordionItem>
           ))}
-        </div>
+        </Accordion>
       </div>
     </section>
   );
