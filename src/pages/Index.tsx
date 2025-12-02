@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import BookShowcase from "@/components/BookShowcase";
+import HowToRead from "@/components/HowToRead";
 import ChapterList from "@/components/ChapterList";
 import Testimonials from "@/components/Testimonials";
 
@@ -10,6 +11,7 @@ const Index = () => {
       <Header />
       <HeroSection />
       <BookShowcase />
+      <HowToRead />
       <ChapterList />
       <Testimonials />
       
