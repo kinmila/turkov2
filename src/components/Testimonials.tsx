@@ -1,3 +1,11 @@
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 const testimonials = [
   {
     quote: "I ALMOST WANT TO CALL IT A KIND OF GOSPEL.",
@@ -31,6 +39,30 @@ const testimonials = [
   }
 ];
 
+const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] }) => (
+  <div className="bg-background p-8 rounded-lg shadow-xl h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-foreground mb-6 leading-tight">
+      "{testimonial.quote}"
+    </h3>
+    
+    <div className="space-y-4 flex-grow">
+      {testimonial.text.map((paragraph, pIdx) => (
+        <p 
+          key={pIdx}
+          className="text-muted-foreground italic leading-relaxed"
+        >
+          {paragraph}
+        </p>
+      ))}
+    </div>
+    
+    <div className="mt-8 pt-6 border-t border-border">
+      <p className="text-foreground font-medium">{testimonial.author}</p>
+      <p className="text-muted-foreground text-sm mt-1">{testimonial.date}</p>
+    </div>
+  </div>
+);
+
 const Testimonials = () => {
   return (
     <section className="py-20 bg-dark-bg">
@@ -39,32 +71,25 @@ const Testimonials = () => {
           What Readers Say
         </h2>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        {/* Mobile carousel */}
+        <div className="md:hidden">
+          <Carousel className="w-full max-w-sm mx-auto">
+            <CarouselContent>
+              {testimonials.map((testimonial, idx) => (
+                <CarouselItem key={idx}>
+                  <TestimonialCard testimonial={testimonial} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-0" />
+            <CarouselNext className="right-0" />
+          </Carousel>
+        </div>
+
+        {/* Desktop grid */}
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {testimonials.map((testimonial, idx) => (
-            <div 
-              key={idx}
-              className="bg-background p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col"
-            >
-              <h3 className="text-2xl font-bold text-foreground mb-6 leading-tight">
-                "{testimonial.quote}"
-              </h3>
-              
-              <div className="space-y-4 flex-grow">
-                {testimonial.text.map((paragraph, pIdx) => (
-                  <p 
-                    key={pIdx}
-                    className="text-muted-foreground italic leading-relaxed"
-                  >
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-              
-              <div className="mt-8 pt-6 border-t border-border">
-                <p className="text-foreground font-medium">{testimonial.author}</p>
-                <p className="text-muted-foreground text-sm mt-1">{testimonial.date}</p>
-              </div>
-            </div>
+            <TestimonialCard key={idx} testimonial={testimonial} />
           ))}
         </div>
       </div>
