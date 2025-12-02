@@ -9,7 +9,7 @@ const HowToRead = () => {
           How to Read This Book
         </h2>
         
-        <div className="space-y-6 text-muted-foreground font-serif italic leading-relaxed text-lg text-center">
+        <div className="space-y-6 text-muted-foreground font-serif italic leading-relaxed text-lg text-left mx-auto max-w-xl">
           <p>We wrote this book together.</p>
           
           <p>
