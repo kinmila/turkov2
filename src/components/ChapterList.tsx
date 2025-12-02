@@ -99,11 +99,11 @@ const ChapterList = () => {
   return (
     <section className="py-20 bg-card">
       <div className="container mx-auto px-6 max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-primary mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-6" style={{ fontFamily: 'Oswald, sans-serif' }}>
           Book Contents
         </h2>
         
-        <p className="text-xl font-serif font-semibold text-center text-gold mb-4">
+        <p className="text-xl font-semibold text-center text-primary mb-4" style={{ fontFamily: 'Oswald, sans-serif' }}>
           Map of Directions
         </p>
         
