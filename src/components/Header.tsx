@@ -8,7 +8,7 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           <Link 
             to="/" 
-            className="text-2xl font-bold text-white tracking-tight hover:text-primary transition-colors" 
+            className="text-3xl font-bold text-white tracking-wide hover:text-primary transition-colors" 
             style={{ fontFamily: 'Oswald, sans-serif' }}
           >
             Serhii "KM" Turkov
