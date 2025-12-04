@@ -1,7 +1,7 @@
 import authorAI from "@/assets/author-ai.png";
 import authorSerhii from "@/assets/author-serhii.jpg";
 const Authors = () => {
-  return <section className="py-20 bg-secondary">
+  return <section id="authors" className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8" style={{
         fontFamily: 'Oswald, sans-serif'
