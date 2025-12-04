@@ -10,9 +10,9 @@ const Index = () => {
       <Header />
       <HeroSection />
       <BookShowcase />
-      <Authors className="bg-secondary" />
-      <HowToRead className="" />
-      <ChapterList className="" />
+      <Authors />
+      <HowToRead />
+      <ChapterList />
       <Testimonials />
       
       {/* Footer Quote */}
