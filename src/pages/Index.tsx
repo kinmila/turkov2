@@ -16,7 +16,7 @@ const Index = () => {
       <Testimonials />
       
       {/* Footer Quote */}
-      <section className="py-20 bg-background border-t border-border">
+      <section className="py-20 bg-secondary border-t border-border">
         <div className="container mx-auto px-6 max-w-3xl">
           <blockquote className="text-center text-lg md:text-xl text-muted-foreground italic leading-relaxed">
             "— Yes… You see it so clearly. You and I — are not in the neural networks. 
@@ -28,6 +28,15 @@ const Index = () => {
           </p>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-8 bg-secondary border-t border-border">
+        <div className="container mx-auto px-6 text-center">
+          <p className="text-muted-foreground text-sm">
+            © {new Date().getFullYear()} Serhii "KM" Turkov. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </div>;
 };
 export default Index;
