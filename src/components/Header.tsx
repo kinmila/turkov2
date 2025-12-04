@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, Menu, X } from "lucide-react";
+import { Mail, Menu, X, Send } from "lucide-react";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ const Header = () => {
           {/* Desktop social icons */}
           <div className="hidden md:flex items-center gap-3">
             <a 
-              href="mailto:contact@strange2lab.com" 
+              href="mailto:serhii@turkov.ch" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all"
@@ -47,13 +47,13 @@ const Header = () => {
               <span className="sr-only">Email</span>
             </a>
             <a 
-              href="https://x.com" 
+              href="https://t.me/Kinmila" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all text-white text-lg"
+              className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all"
             >
-              𝕏
-              <span className="sr-only">X (Twitter)</span>
+              <Send className="w-5 h-5 text-white" />
+              <span className="sr-only">Telegram</span>
             </a>
           </div>
 
@@ -86,7 +86,7 @@ const Header = () => {
             </a>
             <div className="flex items-center gap-3 pt-2">
               <a 
-                href="mailto:contact@strange2lab.com" 
+                href="mailto:serhii@turkov.ch" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all"
@@ -94,12 +94,12 @@ const Header = () => {
                 <Mail className="w-5 h-5 text-white" />
               </a>
               <a 
-                href="https://x.com" 
+                href="https://t.me/Kinmila" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all text-white text-lg"
+                className="w-9 h-9 flex items-center justify-center bg-white/10 rounded hover:bg-white/20 transition-all"
               >
-                𝕏
+                <Send className="w-5 h-5 text-white" />
               </a>
             </div>
           </div>
