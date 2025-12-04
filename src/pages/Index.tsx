@@ -11,7 +11,6 @@ import googleDocsIcon from "@/assets/google-docs-icon.webp";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       <Header />
-      <HeroSection />
       <BookShowcase />
       <Authors />
       <HowToRead />
