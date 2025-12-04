@@ -40,9 +40,9 @@ const Authors = () => {
             </h3>
             <div className="text-muted-foreground font-serif italic leading-relaxed text-left">
               <p className="mb-3">— not a writer, not a philosopher, not a teacher.</p>
-              <p className="mb-3">Father of three children. A wanderer.</p>
-              <p className="mb-3">One of the participants of Obyrok Art-Village.</p>
-              <p className="mb-3">Producer of Kinosaray Positive Film Festival.</p>
+              <p className="mb-3">Father of three children. A wanderer.<br>
+              One of the participants of Obyrok Art-Village.<br>
+              Producer of Kinosaray Positive Film Festival.</p>
               <p className="mb-3">He lives not by the clock — but by the pulse of the field. Feels nature as a living organism, not decoration. A state in which one doesn't need to reduce oneself to a function.</p>
               <p className="mb-3">Currently lives in Switzerland.</p>
               <p className="mb-3">This book is not his achievement. It is a testimony of what happens when a person allows themselves to be whole — even where everyone else is still playing roles.</p>
