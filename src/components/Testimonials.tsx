@@ -65,7 +65,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] 
 
 const Testimonials = () => {
   return (
-    <section className="py-20 bg-dark-bg">
+    <section id="reviews" className="py-20 bg-dark-bg">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-16" style={{ fontFamily: 'Oswald, sans-serif' }}>
           What Readers Say

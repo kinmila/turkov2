@@ -38,20 +38,17 @@ const Header = () => {
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-white/90 hover:text-white transition-colors">
-              About us
+            <a href="#buy" className="text-white/90 hover:text-white transition-colors">
+              Buy
             </a>
-            <a href="#the-book" className="text-white/90 hover:text-white transition-colors">
-              The Book
+            <a href="#authors" className="text-white/90 hover:text-white transition-colors">
+              Authors
             </a>
-            <a href="#lexicon" className="text-white/90 hover:text-white transition-colors">
-              The Lexicon
+            <a href="#contents" className="text-white/90 hover:text-white transition-colors">
+              Contents
             </a>
-            <a href="#games" className="text-white/90 hover:text-white transition-colors">
-              Games
-            </a>
-            <a href="#contact" className="text-white/90 hover:text-white transition-colors">
-              Contact us
+            <a href="#reviews" className="text-white/90 hover:text-white transition-colors">
+              Reviews
             </a>
           </div>
 
@@ -89,20 +86,17 @@ const Header = () => {
         {/* Mobile menu */}
         {mobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4">
-            <a href="#about" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              About us
+            <a href="#buy" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+              Buy
             </a>
-            <a href="#the-book" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              The Book
+            <a href="#authors" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+              Authors
             </a>
-            <a href="#lexicon" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              The Lexicon
+            <a href="#contents" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+              Contents
             </a>
-            <a href="#games" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              Games
-            </a>
-            <a href="#contact" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              Contact us
+            <a href="#reviews" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+              Reviews
             </a>
             <div className="flex items-center gap-3 pt-2">
               <a 
