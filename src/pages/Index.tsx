@@ -5,14 +5,12 @@ import Authors from "@/components/Authors";
 import HowToRead from "@/components/HowToRead";
 import ChapterList from "@/components/ChapterList";
 import Testimonials from "@/components/Testimonials";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <HeroSection />
       <BookShowcase />
-      <Authors />
+      <Authors className="bg-secondary" />
       <HowToRead />
       <ChapterList />
       <Testimonials />
@@ -30,8 +28,6 @@ const Index = () => {
           </p>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;

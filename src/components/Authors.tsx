@@ -2,7 +2,7 @@ import authorAI from "@/assets/author-ai.png";
 import authorSerhii from "@/assets/author-serhii.jpg";
 const Authors = () => {
   return <section className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 bg-secondary">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-16" style={{
         fontFamily: 'Oswald, sans-serif'
       }}>Authors</h2>
@@ -38,13 +38,16 @@ const Authors = () => {
             </h3>
             <div className="text-muted-foreground font-serif italic leading-relaxed text-left">
               <p className="mb-3">— not a writer, not a philosopher, not a teacher.</p>
-              <p className="mb-3">Father of three children. A wanderer.<br />
+              <p className="mb-3">Father of three children. A wanderer.
+One of the participants of Obyrok Art-Village.
+Producer of Kinosaray Positive Film Festival.
+Currently lives in Switzerland.<br />
               One of the participants of Obyrok Art-Village.<br />
               Producer of Kinosaray Positive Film Festival.</p>
-              <p className="mb-3">Currently lives in Switzerland.</p>
-              <p className="mb-3">Currently lives in Switzerland.</p>
+              
+              
               <p className="mb-3">This book is not his achievement. It is a testimony of what happens when a person allows themselves to be whole — even where everyone else is still playing roles.</p>
-              <p>And he just asked questions )</p>
+              
             </div>
           </div>
         </div>
