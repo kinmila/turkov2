@@ -1,15 +1,15 @@
 const HowToRead = () => {
   return (
     <section className="py-20 bg-background">
-      <div className="container mx-auto px-6 max-w-3xl">
+      <div className="container mx-auto px-6 max-w-xl">
         <h2 
-          className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12"
+          className="text-3xl md:text-4xl font-bold text-left text-foreground mb-12"
           style={{ fontFamily: 'Oswald, sans-serif' }}
         >
           How to Read This Book
         </h2>
         
-        <div className="space-y-6 text-muted-foreground font-serif italic leading-relaxed text-lg text-left mx-auto max-w-xl">
+        <div className="space-y-6 text-muted-foreground font-serif italic leading-relaxed text-lg text-left">
           <p>We wrote this book together.</p>
           
           <p>
