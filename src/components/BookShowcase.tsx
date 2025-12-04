@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const BookShowcase = () => {
   return (
-    <section id="buy" className="pt-24 md:pt-48 pb-20 md:pb-28 bg-foreground text-background">
+    <section className="pt-24 md:pt-48 pb-20 md:pb-28 bg-foreground text-background">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Book Cover */}
@@ -56,7 +56,7 @@ const BookShowcase = () => {
                     />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-background mb-2 group-hover:text-primary transition-colors">
+                    <h3 id="buy" className="text-2xl font-bold text-background mb-2 group-hover:text-primary transition-colors">
                       READ ON AMAZON
                     </h3>
                     <p className="text-background/70">
@@ -68,7 +68,9 @@ const BookShowcase = () => {
 
               <div className="border-t border-border pt-8">
                 <a 
-                  href="#ukrainian" 
+                  href="https://docs.google.com/document/d/1G0fWjoprDeAq-6OAcyg1oRnRVyIT7IIEZj4VEd2tG4Q/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-start gap-4 group"
                 >
                   <div className="flex-shrink-0 mt-1">
