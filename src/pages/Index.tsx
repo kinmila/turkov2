@@ -25,24 +25,24 @@ const Index = () => {
               href="https://a.co/d/4ILIPOD" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-4 p-6 bg-card rounded-lg hover:bg-muted transition-colors"
+              className="flex items-center gap-4 p-6 bg-white rounded-lg hover:bg-gray-100 transition-colors"
             >
               <img src={amazonIcon} alt="Amazon" className="w-14 h-14 object-contain" />
               <div>
-                <h3 className="text-lg font-bold text-foreground" style={{ fontFamily: 'Oswald, sans-serif' }}>READ ON AMAZON</h3>
-                <p className="text-muted-foreground font-serif italic text-sm">Explore the book on Amazon — Kindle edition available.</p>
+                <h3 className="text-lg font-bold text-gray-900" style={{ fontFamily: 'Oswald, sans-serif' }}>READ ON AMAZON</h3>
+                <p className="text-gray-600 font-serif italic text-sm">Explore the book on Amazon — Kindle edition available.</p>
               </div>
             </a>
             <a 
               href="https://docs.google.com/document/d/1example" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-4 p-6 bg-card rounded-lg hover:bg-muted transition-colors"
+              className="flex items-center gap-4 p-6 bg-white rounded-lg hover:bg-gray-100 transition-colors"
             >
               <img src={googleDocsIcon} alt="Google Docs" className="w-14 h-14 object-contain" />
               <div>
-                <h3 className="text-lg font-bold text-foreground" style={{ fontFamily: 'Oswald, sans-serif' }}>ЧИТАТИ УКРАЇНСЬКОЮ</h3>
-                <p className="text-muted-foreground font-serif italic text-sm">Українське видання — читати в Google Docs.</p>
+                <h3 className="text-lg font-bold text-gray-900" style={{ fontFamily: 'Oswald, sans-serif' }}>ЧИТАТИ УКРАЇНСЬКОЮ</h3>
+                <p className="text-gray-600 font-serif italic text-sm">Українське видання — читати в Google Docs.</p>
               </div>
             </a>
           </div>
