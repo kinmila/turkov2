@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const BookShowcase = () => {
   return (
-    <section id="buy" className="pt-48 pb-28 bg-foreground text-background">
+    <section id="buy" className="pt-24 md:pt-48 pb-20 md:pb-28 bg-foreground text-background">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Book Cover */}
