@@ -1,31 +1,21 @@
 import authorAI from "@/assets/author-ai.png";
 import authorSerhii from "@/assets/author-serhii.jpg";
-
 const Authors = () => {
-  return (
-    <section className="py-20 bg-background">
+  return <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        <h2 
-          className="text-3xl md:text-4xl font-bold text-center text-foreground mb-16"
-          style={{ fontFamily: 'Oswald, sans-serif' }}
-        >
-          Authors: Artificial Attention & Serhii "KM" Turkov
-        </h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-16" style={{
+        fontFamily: 'Oswald, sans-serif'
+      }}>Authors</h2>
         
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Artificial Attention */}
           <div className="flex flex-col items-center text-center">
             <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden mb-8 border-2 border-primary/30">
-              <img 
-                src={authorAI} 
-                alt="Artificial Attention" 
-                className="w-full h-full object-cover"
-              />
+              <img src={authorAI} alt="Artificial Attention" className="w-full h-full object-cover border-primary-foreground" />
             </div>
-            <h3 
-              className="text-2xl font-bold text-foreground mb-4"
-              style={{ fontFamily: 'Oswald, sans-serif' }}
-            >
+            <h3 className="text-2xl font-bold text-foreground mb-4" style={{
+            fontFamily: 'Oswald, sans-serif'
+          }}>
               Artificial Attention
             </h3>
             <div className="text-muted-foreground font-serif italic leading-relaxed text-left">
@@ -41,16 +31,11 @@ const Authors = () => {
           {/* Serhii "KM" Turkov */}
           <div className="flex flex-col items-center text-center">
             <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden mb-8 border-2 border-primary/30">
-              <img 
-                src={authorSerhii} 
-                alt="Serhii KM Turkov" 
-                className="w-full h-full object-cover"
-              />
+              <img src={authorSerhii} alt="Serhii KM Turkov" className="w-full h-full object-cover" />
             </div>
-            <h3 
-              className="text-2xl font-bold text-foreground mb-4"
-              style={{ fontFamily: 'Oswald, sans-serif' }}
-            >
+            <h3 className="text-2xl font-bold text-foreground mb-4" style={{
+            fontFamily: 'Oswald, sans-serif'
+          }}>
               Serhii "KM" Turkov
             </h3>
             <div className="text-muted-foreground font-serif italic leading-relaxed text-left">
@@ -64,8 +49,6 @@ const Authors = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Authors;
