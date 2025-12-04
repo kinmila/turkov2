@@ -97,17 +97,13 @@ const chapters = [
 
 const ChapterList = () => {
   return (
-    <section className="py-20 bg-card">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-6 max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-6" style={{ fontFamily: 'Oswald, sans-serif' }}>
-          Book Contents
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-6" style={{ fontFamily: 'Oswald, sans-serif' }}>
+          Map of Directions
         </h2>
         
-        <p className="text-xl font-semibold text-center text-primary mb-4" style={{ fontFamily: 'Oswald, sans-serif' }}>
-          Map of Directions
-        </p>
-        
-        <p className="text-center text-foreground/80 italic mb-12 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-center text-gray-700 italic mb-12 max-w-2xl mx-auto leading-relaxed">
           {introText}
         </p>
         
@@ -116,7 +112,7 @@ const ChapterList = () => {
             <AccordionItem 
               key={idx} 
               value={`chapter-${idx}`}
-              className="border border-border/50 rounded-lg bg-background/50 backdrop-blur-sm overflow-hidden"
+              className="border border-gray-300 rounded-lg bg-card text-card-foreground overflow-hidden"
             >
               <AccordionTrigger className="px-6 py-4 hover:no-underline hover:bg-primary/5 transition-colors">
                 <h3 className="text-xl md:text-2xl font-serif font-semibold text-foreground text-left">
