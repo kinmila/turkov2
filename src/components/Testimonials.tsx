@@ -76,7 +76,7 @@ const Testimonials = () => {
         </div>
 
         {/* Desktop grid */}
-        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="hidden md:grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((testimonial, idx) => (
             <TestimonialCard key={idx} testimonial={testimonial} />
           ))}
