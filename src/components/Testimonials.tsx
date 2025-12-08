@@ -36,6 +36,15 @@ const testimonials = [
     ],
     author: "Alex",
     date: "February 2025"
+  },
+  {
+    quote: "A VERY INTERESTING EXPERIMENT, SUBTLE AND DEEPLY SENSITIVE.",
+    text: [
+      "And recently, under some strange circumstances, I came across the book you created using artificial intelligence (I can't even explain how I ended up there).",
+      "The book made a strong impression on me, and that's actually why I'm writing to you. It was unexpected — a very interesting experiment, subtle and deeply sensitive."
+    ],
+    author: "Max",
+    date: "June 2025"
   }
 ];
 
