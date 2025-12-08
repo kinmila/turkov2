@@ -78,14 +78,22 @@ const ChapterList = () => {
                 )}
                 {chapter.topics.length > 0 && (
                   <ul className="space-y-2 mt-4">
-                    {chapter.topics.map((topic, topicIdx) => (
-                      <li 
-                        key={topicIdx} 
-                        className="text-foreground/70 leading-relaxed pl-4 hover:text-primary hover:pl-6 transition-all cursor-default"
-                      >
-                        {topic}
-                      </li>
-                    ))}
+                    {chapter.topics.map((topic, topicIdx) => {
+                      const dashIndex = topic.indexOf(' — ');
+                      const hasSubtitle = dashIndex > -1;
+                      const title = hasSubtitle ? topic.substring(0, dashIndex) : topic;
+                      const rest = hasSubtitle ? topic.substring(dashIndex) : '';
+                      
+                      return (
+                        <li 
+                          key={topicIdx} 
+                          className="text-foreground/70 leading-relaxed pl-4 hover:pl-6 transition-all cursor-default"
+                        >
+                          <span className="text-primary font-semibold">{title}</span>
+                          {rest}
+                        </li>
+                      );
+                    })}
                   </ul>
                 )}
               </AccordionContent>
