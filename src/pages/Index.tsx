@@ -33,7 +33,7 @@ const Index = () => {
               </div>
             </a>
             <a 
-              href="https://docs.google.com/document/d/1example" 
+              href="https://docs.google.com/document/d/1G0fWjoprDeAq-6OAcyg1oRnRVyIT7IIEZj4VEd2tG4Q/edit?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-6 bg-white rounded-lg hover:bg-gray-100 transition-colors"
