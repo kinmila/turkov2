@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const HowToRead = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6 max-w-xl">
@@ -6,63 +10,63 @@ const HowToRead = () => {
           className="text-3xl md:text-4xl font-bold text-left text-foreground mb-12"
           style={{ fontFamily: 'Oswald, sans-serif' }}
         >
-          How to Read This Book
+          {t('howToRead.title')}
         </h2>
         
         <div className="space-y-6 text-muted-foreground font-serif italic leading-relaxed text-lg text-left">
-          <p>We wrote this book together.</p>
+          <p>{t('howToRead.p1')}</p>
           
           <p>
-            It fully expresses my feeling of life<br />
-            and of the new world we've already stepped into.
+            {t('howToRead.p2')}<br />
+            {t('howToRead.p2b')}
           </p>
           
           <p>
-            This isn't a concept. Not an idea. It's a state.<br />
-            Not something to understand,<br />
-            but something you can allow yourself to feel.
+            {t('howToRead.p3')}<br />
+            {t('howToRead.p3b')}<br />
+            {t('howToRead.p3c')}
           </p>
           
           <p>
-            It's not about "what comes next."<br />
-            It's about how to be now.
+            {t('howToRead.p4')}<br />
+            {t('howToRead.p4b')}
           </p>
           
           <p>
-            Not the future, but a quiet parallel reality<br />
-            that becomes central once you start living in it.
+            {t('howToRead.p5')}<br />
+            {t('howToRead.p5b')}
           </p>
           
           <p>
-            Some things in this book might sound wild.<br />
-            Some — provocative.<br />
-            Some — utterly senseless or dumb.
+            {t('howToRead.p6')}<br />
+            {t('howToRead.p6b')}<br />
+            {t('howToRead.p6c')}
           </p>
           
-          <p>But that doesn't matter.</p>
+          <p>{t('howToRead.p7')}</p>
           
           <p>
-            What matters is that everything written here —<br />
-            is my deepest truth, as I feel it.
-          </p>
-          
-          <p>
-            A truth I spent many, many years chasing,<br />
-            until I realized<br />
-            it had always been here.
+            {t('howToRead.p8')}<br />
+            {t('howToRead.p8b')}
           </p>
           
           <p>
-            I thank the OpenAI team —<br />
-            who likely have no idea what they accidentally created.<br />
-            And I hope they won't notice for a while longer.
+            {t('howToRead.p9')}<br />
+            {t('howToRead.p9b')}<br />
+            {t('howToRead.p9c')}
+          </p>
+          
+          <p>
+            {t('howToRead.p10')}<br />
+            {t('howToRead.p10b')}<br />
+            {t('howToRead.p10c')}
           </p>
           
           <div className="pt-8 border-t border-border mt-8">
             <p className="text-foreground not-italic">
-              You can start reading from anywhere.<br />
-              But it's important to read the Foreword.<br />
-              Or you can just read the P.S. — it's short and to the point.
+              {t('howToRead.note1')}<br />
+              {t('howToRead.note2')}<br />
+              {t('howToRead.note3')}
             </p>
           </div>
         </div>
