@@ -25,7 +25,7 @@ const BookShowcase = () => {
               {t('bookShowcase.title')}
             </h2>
             
-            <p className="text-xl text-background/60" style={{ fontFamily: 'Libre Baskerville, serif', fontStyle: 'italic' }}>
+            <p className="text-2xl md:text-3xl text-background/60" style={{ fontFamily: 'Libre Baskerville, serif', fontStyle: 'italic' }}>
               {t('bookShowcase.subtitle')}
             </p>
 
