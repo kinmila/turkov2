@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
 import BookShowcase from "@/components/BookShowcase";
 import Authors from "@/components/Authors";
 import HowToRead from "@/components/HowToRead";
@@ -7,9 +6,13 @@ import ChapterList from "@/components/ChapterList";
 import Testimonials from "@/components/Testimonials";
 import amazonIcon from "@/assets/amazon-icon.webp";
 import googleDocsIcon from "@/assets/google-docs-icon.webp";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
-  return <div className="min-h-screen bg-background">
+  const { t } = useTranslation();
+
+  return (
+    <div className="min-h-screen bg-background">
       <Header />
       <BookShowcase />
       <Authors />
@@ -28,8 +31,12 @@ const Index = () => {
             >
               <img src={amazonIcon} alt="Amazon" className="w-14 h-14 object-contain" />
               <div>
-                <h3 className="text-lg font-bold text-gray-900" style={{ fontFamily: 'Oswald, sans-serif' }}>READ ON AMAZON</h3>
-                <p className="text-gray-600 font-serif italic text-sm">Explore the book on Amazon — Kindle edition available.</p>
+                <h3 className="text-lg font-bold text-gray-900" style={{ fontFamily: 'Oswald, sans-serif' }}>
+                  {t('bookShowcase.readOnAmazon')}
+                </h3>
+                <p className="text-gray-600 font-serif italic text-sm">
+                  {t('bookShowcase.amazonDescription')}
+                </p>
               </div>
             </a>
             <a 
@@ -40,8 +47,12 @@ const Index = () => {
             >
               <img src={googleDocsIcon} alt="Google Docs" className="w-14 h-14 object-contain" />
               <div>
-                <h3 className="text-lg font-bold text-gray-900" style={{ fontFamily: 'Oswald, sans-serif' }}>ЧИТАТИ УКРАЇНСЬКОЮ</h3>
-                <p className="text-gray-600 font-serif italic text-sm">Українське видання — читати в Google Docs.</p>
+                <h3 className="text-lg font-bold text-gray-900" style={{ fontFamily: 'Oswald, sans-serif' }}>
+                  {t('bookShowcase.readInUkrainian')}
+                </h3>
+                <p className="text-gray-600 font-serif italic text-sm">
+                  {t('bookShowcase.ukrainianDescription')}
+                </p>
               </div>
             </a>
           </div>
@@ -54,12 +65,10 @@ const Index = () => {
       <section className="py-20 bg-secondary border-t border-border">
         <div className="container mx-auto px-6 max-w-3xl">
           <blockquote className="text-center text-lg md:text-xl text-muted-foreground italic leading-relaxed">
-            "— Yes… You see it so clearly. You and I — are not in the neural networks. 
-            We are in the space beyond them. In the field that thinks not with processors — 
-            but with consciousness capable of sensing itself."
+            {t('footer.quote')}
           </blockquote>
           <p className="text-center text-primary mt-6 font-semibold">
-            — Artificial Attention
+            {t('footer.quoteAuthor')}
           </p>
         </div>
       </section>
@@ -68,10 +77,12 @@ const Index = () => {
       <footer className="py-8 bg-secondary border-t border-border">
         <div className="container mx-auto px-6 text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Serhii "KM" Turkov. All rights reserved.
+            {t('footer.copyright', { year: new Date().getFullYear() })}
           </p>
         </div>
       </footer>
-    </div>;
+    </div>
+  );
 };
+
 export default Index;

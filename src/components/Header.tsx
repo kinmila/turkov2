@@ -1,11 +1,14 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Mail, Menu, X, Send } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,16 +42,16 @@ const Header = () => {
           
           <div className="hidden md:flex items-center gap-8">
             <a href="#buy" className="text-white/90 hover:text-white transition-colors">
-              Buy
+              {t('nav.buy')}
             </a>
             <a href="#authors" className="text-white/90 hover:text-white transition-colors">
-              Authors
+              {t('nav.authors')}
             </a>
             <a href="#contents" className="text-white/90 hover:text-white transition-colors">
-              Contents
+              {t('nav.contents')}
             </a>
             <a href="#reviews" className="text-white/90 hover:text-white transition-colors">
-              Reviews
+              {t('nav.reviews')}
             </a>
           </div>
 
@@ -72,6 +75,7 @@ const Header = () => {
               <Send className="w-5 h-5 text-white" />
               <span className="sr-only">Telegram</span>
             </a>
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile hamburger */}
@@ -87,16 +91,16 @@ const Header = () => {
         {mobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4">
             <a href="#buy" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              Buy
+              {t('nav.buy')}
             </a>
             <a href="#authors" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              Authors
+              {t('nav.authors')}
             </a>
             <a href="#contents" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              Contents
+              {t('nav.contents')}
             </a>
             <a href="#reviews" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
-              Reviews
+              {t('nav.reviews')}
             </a>
             <div className="flex items-center gap-3 pt-2">
               <a 
@@ -115,6 +119,7 @@ const Header = () => {
               >
                 <Send className="w-5 h-5 text-white" />
               </a>
+              <LanguageSwitcher />
             </div>
           </div>
         )}

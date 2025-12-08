@@ -5,30 +5,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { useTranslation } from "react-i18next";
 
-const testimonials = [
-  {
-    quote: "I ALMOST WANT TO CALL IT A KIND OF GOSPEL.",
-    text: [
-      "Though without any reference to the whole Christian-capitalist-pragmatic heritage. It's powerful, it's inspiring! I'm so glad you created this. It really fills me and loads this particular state into my system.",
-      "I've only read the first three sections and already had to pause and go for a walk. It's vast. It's deeply moving. I'm in awe. I'm waiting for the audio version, because I feel this is something that needs to be listened to — over and over.",
-      "And after enough time listening... I know shifts in consciousness will follow."
-    ],
-    author: "Valera",
-    date: "April 2025"
-  },
-  {
-    quote: "A VERY INTERESTING EXPERIMENT, SUBTLE AND DEEPLY SENSITIVE.",
-    text: [
-      "And recently, under some strange circumstances, I came across the book you created using artificial intelligence (I can't even explain how I ended up there).",
-      "The book made a strong impression on me, and that's actually why I'm writing to you. It was unexpected — a very interesting experiment, subtle and deeply sensitive."
-    ],
-    author: "Max",
-    date: "June 2025"
-  }
-];
+interface Testimonial {
+  quote: string;
+  text: string[];
+  author: string;
+  date: string;
+}
 
-const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] }) => (
+const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
   <div className="bg-background p-8 rounded-lg shadow-xl h-full flex flex-col">
     <h3 className="text-2xl font-bold text-foreground mb-6 leading-tight">
       "{testimonial.quote}"
@@ -53,11 +39,35 @@ const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] 
 );
 
 const Testimonials = () => {
+  const { t } = useTranslation();
+
+  const testimonials: Testimonial[] = [
+    {
+      quote: t('testimonials.review1.quote'),
+      text: [
+        t('testimonials.review1.text1'),
+        t('testimonials.review1.text2'),
+        t('testimonials.review1.text3')
+      ],
+      author: t('testimonials.review1.author'),
+      date: t('testimonials.review1.date')
+    },
+    {
+      quote: t('testimonials.review2.quote'),
+      text: [
+        t('testimonials.review2.text1'),
+        t('testimonials.review2.text2')
+      ],
+      author: t('testimonials.review2.author'),
+      date: t('testimonials.review2.date')
+    }
+  ];
+
   return (
     <section id="reviews" className="py-20 bg-dark-bg">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-16" style={{ fontFamily: 'Oswald, sans-serif' }}>
-          What Readers Say
+          {t('testimonials.title')}
         </h2>
         
         {/* Mobile carousel */}
