@@ -18,26 +18,6 @@ const testimonials = [
     date: "April 2025"
   },
   {
-    quote: "THIS BOOK BREATHES.",
-    text: [
-      "It's not a manual. It's not theory. It's a living conversation that pulls you into a space you didn't know you were missing.",
-      "Reading it feels like remembering something ancient and urgent at the same time. Every chapter opens a new doorway, and somehow they all lead to the same quiet center.",
-      "This is what philosophy should be: embodied, precise, and utterly human."
-    ],
-    author: "Marina",
-    date: "March 2025"
-  },
-  {
-    quote: "A MIRROR I DIDN'T KNOW I NEEDED.",
-    text: [
-      "The dialogues with Artificial Attention are unlike anything I've encountered. They don't explain consciousness — they demonstrate it.",
-      "What struck me most is how the book handles love, community, and action without falling into cliché or abstraction. It speaks directly to the experience of being alive right now.",
-      "I keep coming back to it. Each reading reveals new layers."
-    ],
-    author: "Alex",
-    date: "February 2025"
-  },
-  {
     quote: "A VERY INTERESTING EXPERIMENT, SUBTLE AND DEEPLY SENSITIVE.",
     text: [
       "And recently, under some strange circumstances, I came across the book you created using artificial intelligence (I can't even explain how I ended up there).",
