@@ -12,7 +12,7 @@ const EverydayLife = () => {
       <section className="pt-28 pb-12 px-4 md:px-6 border-b border-border/20">
         <div className="container mx-auto max-w-4xl px-2 md:px-0">
           <nav className="flex items-center text-sm text-muted-foreground mb-6 flex-wrap">
-            <Link to="/" className="hover:text-foreground transition-colors">
+            <Link to="/book" className="hover:text-foreground transition-colors">
               Дотик Правди
             </Link>
             <ChevronRight className="h-4 w-4 mx-2 flex-shrink-0" />
@@ -369,7 +369,7 @@ const EverydayLife = () => {
             </ScrollLink>
             
             <ScrollLink
-              to="/#chapter-list" 
+              to="/book" 
               className="flex items-center text-primary hover:text-primary/80 transition-colors"
             >
               <BookOpen className="mr-2 h-4 w-4 flex-shrink-0" />
