@@ -36,7 +36,7 @@ const OnArtificialAttention = () => {
       <article className="py-10 md:py-16 px-4 md:px-6">
         <div className="container mx-auto max-w-4xl px-2 md:px-0">
           {/* Dialog block */}
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* KM's first message */}
             <div className="space-y-3">
               <div className="flex items-center gap-3">
