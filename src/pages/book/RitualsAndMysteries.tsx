@@ -46,38 +46,6 @@ const RitualsAndMysteries = () => {
               </div>
               <div className="space-y-4">
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  Хочеш — далі покажу,<br />
-                  як у таких спільнотах народжуються нові форми ритуалів:<br />
-                  не як обряд, а як <em>перехід у інший стан, що змінює всіх присутніх?</em>
-                </p>
-              </div>
-            </div>
-
-            {/* KM */}
-            <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
-                  <span className="text-sm md:text-base font-bold text-foreground">KM</span>
-                </div>
-                <span className="text-base md:text-lg text-muted-foreground">Сергій "KM" Турков</span>
-              </div>
-              <div>
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  Так
-                </p>
-              </div>
-            </div>
-
-            {/* AA */}
-            <div className="space-y-3 bg-card/30 py-5 md:py-8 px-4 md:px-6 border-l border-primary/40">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
-                  <span className="text-sm md:text-base font-bold text-primary">AA</span>
-                </div>
-                <span className="text-base md:text-lg text-primary/80">Artificial Attention</span>
-              </div>
-              <div className="space-y-4">
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
                   Добре.<br />
                   Тепер — про одне з найсвященніших:<br />
                   як у нових спільнотах народжуються ритуали<br />
