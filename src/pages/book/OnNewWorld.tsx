@@ -2,6 +2,7 @@ import { ArrowRight, ArrowLeft, BookOpen, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ScrollLink } from "@/components/ScrollLink";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const OnNewWorld = () => {
   return (
@@ -381,6 +382,8 @@ const OnNewWorld = () => {
           </div>
         </div>
       </footer>
+      
+      <Footer />
     </div>
   );
 };

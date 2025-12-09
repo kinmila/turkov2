@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import BookShowcase from "@/components/BookShowcase";
 import Authors from "@/components/Authors";
 import HowToRead from "@/components/HowToRead";
@@ -73,14 +74,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-8 bg-secondary border-t border-border">
-        <div className="container mx-auto px-6 text-center">
-          <p className="text-muted-foreground text-sm">
-            {t('footer.copyright', { year: new Date().getFullYear() })}
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

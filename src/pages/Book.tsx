@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 // Map topic titles to their routes
 const topicRoutes: Record<string, string> = {
@@ -159,6 +160,8 @@ const Book = () => {
           </div>
         </div>
       </main>
+      
+      <Footer />
     </div>
   );
 };

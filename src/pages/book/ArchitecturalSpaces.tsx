@@ -2,6 +2,7 @@ import { ArrowRight, ArrowLeft, BookOpen, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ScrollLink } from "@/components/ScrollLink";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const ArchitecturalSpaces = () => {
   return (
@@ -228,6 +229,8 @@ const ArchitecturalSpaces = () => {
           </div>
         </div>
       </footer>
+      
+      <Footer />
     </div>
   );
 };
