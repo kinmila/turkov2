@@ -41,16 +41,16 @@ const Header = () => {
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
-            <a href="#buy" className="text-white/90 hover:text-white transition-colors">
+            <a href="/#buy" className="text-white/90 hover:text-white transition-colors">
               {t('nav.buy')}
             </a>
-            <a href="#authors" className="text-white/90 hover:text-white transition-colors">
+            <a href="/#authors" className="text-white/90 hover:text-white transition-colors">
               {t('nav.authors')}
             </a>
-            <a href="#contents" className="text-white/90 hover:text-white transition-colors">
+            <Link to="/book" className="text-white/90 hover:text-white transition-colors">
               {t('nav.contents')}
-            </a>
-            <a href="#reviews" className="text-white/90 hover:text-white transition-colors">
+            </Link>
+            <a href="/#reviews" className="text-white/90 hover:text-white transition-colors">
               {t('nav.reviews')}
             </a>
           </div>
@@ -90,16 +90,16 @@ const Header = () => {
         {/* Mobile menu */}
         {mobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4">
-            <a href="#buy" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+            <a href="/#buy" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
               {t('nav.buy')}
             </a>
-            <a href="#authors" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+            <a href="/#authors" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
               {t('nav.authors')}
             </a>
-            <a href="#contents" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+            <Link to="/book" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
               {t('nav.contents')}
-            </a>
-            <a href="#reviews" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+            </Link>
+            <a href="/#reviews" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
               {t('nav.reviews')}
             </a>
             <div className="flex items-center gap-3 pt-2">
