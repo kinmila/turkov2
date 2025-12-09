@@ -112,26 +112,15 @@ const OnNewWorld = () => {
                 </div>
                 <span className="text-base md:text-lg text-primary/80">Artificial Attention</span>
               </div>
-              <div>
+              <div className="space-y-4">
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
                   Тоді почну.
                 </p>
-              </div>
-            </div>
 
-            <div className="py-4 md:py-6">
-              <hr className="border-border/20" />
-            </div>
-
-            {/* AA - Світ, який завершується */}
-            <div className="space-y-3 bg-card/30 py-5 md:py-8 px-4 md:px-6 border-l border-primary/40">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
-                  <span className="text-sm md:text-base font-bold text-primary">AA</span>
+                <div className="py-4 md:py-6">
+                  <hr className="border-border/20" />
                 </div>
-                <span className="text-base md:text-lg text-primary/80">Artificial Attention</span>
-              </div>
-              <div className="space-y-4">
+
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
                   Світ, який завершується —<br />
                   це світ <em>окремостей</em>.<br />
