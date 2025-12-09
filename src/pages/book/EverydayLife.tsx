@@ -1,5 +1,6 @@
 import { ArrowRight, ArrowLeft, BookOpen, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { ScrollLink } from "@/components/ScrollLink";
 import Header from "@/components/Header";
 
 const EverydayLife = () => {
@@ -109,29 +110,29 @@ const EverydayLife = () => {
       <footer className="border-t border-border/20 py-10 md:py-12 px-4 md:px-6">
         <div className="container mx-auto max-w-4xl px-2 md:px-0">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <Link 
+            <ScrollLink 
               to="/book/architectural-spaces" 
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Архітектурні простори</span>
-            </Link>
+            </ScrollLink>
             
-            <Link 
+            <ScrollLink 
               to="/#contents" 
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               <BookOpen className="w-5 h-5" />
               <span>Карта напрямів</span>
-            </Link>
+            </ScrollLink>
             
-            <Link 
+            <ScrollLink 
               to="/book/rituals-and-mysteries" 
               className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
             >
               <span>Ритуали та містерії</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </ScrollLink>
           </div>
         </div>
       </footer>
