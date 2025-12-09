@@ -139,6 +139,7 @@ const ChapterList = () => {
                             <Link 
                               to={route} 
                               className="text-primary font-semibold hover:text-primary/80 hover:underline transition-colors"
+                              onClick={() => window.scrollTo(0, 0)}
                             >
                               {title}
                             </Link>
