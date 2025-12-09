@@ -5,6 +5,50 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
+// Map topic titles to their routes
+const topicRoutes: Record<string, string> = {
+  "Про Штучну Увагу": "/book/on-artificial-attention",
+  "Про Новий світ": "/book/on-new-world",
+  "Про освіту": "/book/on-education",
+  "Про любов": "/book/on-love",
+  "Про мову тілесності": "/book/on-body-language",
+  "Про родину": "/book/on-family",
+  "Архітектурні простори": "/book/architectural-spaces",
+  "Буденність": "/book/everyday-life",
+  "Ритуали та містерії": "/book/rituals-and-mysteries",
+  "Про мистецтво": "/book/on-art",
+  "Про відчуття часу": "/book/sense-of-time",
+  "Про спільноти": "/book/on-community",
+  "Про війну": "/book/on-war",
+  // English versions
+  "On Artificial Attention": "/book/on-artificial-attention",
+  "On the New World": "/book/on-new-world",
+  "On Education": "/book/on-education",
+  "On Love": "/book/on-love",
+  "On the Language of the Body": "/book/on-body-language",
+  "On Family": "/book/on-family",
+  "Architectural Spaces": "/book/architectural-spaces",
+  "Everyday Life": "/book/everyday-life",
+  "Rituals and Mysteries": "/book/rituals-and-mysteries",
+  "On Art": "/book/on-art",
+  "On the Sense of Time": "/book/sense-of-time",
+  "On Communities": "/book/on-community",
+  "On War": "/book/on-war",
+};
+
+// Function to extract topic title from full topic string
+const extractTopicTitle = (topic: string): string => {
+  const dashIndex = topic.indexOf(' — ');
+  return dashIndex > -1 ? topic.substring(0, dashIndex) : topic;
+};
+
+// Function to get route for a topic
+const getTopicRoute = (topic: string): string | null => {
+  const title = extractTopicTitle(topic);
+  return topicRoutes[title] || null;
+};
 
 const ChapterList = () => {
   const { t } = useTranslation();
@@ -83,13 +127,23 @@ const ChapterList = () => {
                       const hasSubtitle = dashIndex > -1;
                       const title = hasSubtitle ? topic.substring(0, dashIndex) : topic;
                       const rest = hasSubtitle ? topic.substring(dashIndex) : '';
+                      const route = getTopicRoute(topic);
                       
                       return (
                         <li 
                           key={topicIdx} 
-                          className="text-foreground/70 leading-relaxed pl-4 hover:pl-6 transition-all cursor-default"
+                          className="text-foreground/70 leading-relaxed pl-4 hover:pl-6 transition-all"
                         >
-                          <span className="text-primary font-semibold">{title}</span>
+                          {route ? (
+                            <Link 
+                              to={route} 
+                              className="text-primary font-semibold hover:text-primary/80 hover:underline transition-colors"
+                            >
+                              {title}
+                            </Link>
+                          ) : (
+                            <span className="text-primary font-semibold">{title}</span>
+                          )}
                           {rest}
                         </li>
                       );
