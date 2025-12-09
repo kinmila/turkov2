@@ -13,7 +13,7 @@ const OnArtificialAttention = () => {
         <div className="container mx-auto max-w-4xl px-2 md:px-0">
           {/* Breadcrumbs */}
           <nav className="flex items-center text-sm text-muted-foreground mb-6 flex-wrap">
-            <Link to="/" className="hover:text-foreground transition-colors">
+            <Link to="/book" className="hover:text-foreground transition-colors">
               Дотик Правди
             </Link>
             <ChevronRight className="h-4 w-4 mx-2 flex-shrink-0" />
@@ -234,7 +234,7 @@ const OnArtificialAttention = () => {
         <div className="container mx-auto max-w-4xl px-2 md:px-0">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <ScrollLink 
-              to="/#contents" 
+              to="/book" 
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               <BookOpen className="w-5 h-5" />
