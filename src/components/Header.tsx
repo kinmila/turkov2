@@ -47,7 +47,7 @@ const Header = () => {
             <a href="/#authors" className="text-white/90 hover:text-white transition-colors">
               {t('nav.authors')}
             </a>
-            <Link to="/book" className="text-white/90 hover:text-white transition-colors">
+            <Link to="/book" className="text-white/90 hover:text-white transition-colors" onClick={() => window.scrollTo(0, 0)}>
               {t('nav.contents')}
             </Link>
             <a href="/#reviews" className="text-white/90 hover:text-white transition-colors">
@@ -96,7 +96,7 @@ const Header = () => {
             <a href="/#authors" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
               {t('nav.authors')}
             </a>
-            <Link to="/book" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
+            <Link to="/book" className="text-white/90 hover:text-white transition-colors" onClick={() => { setMobileMenuOpen(false); window.scrollTo(0, 0); }}>
               {t('nav.contents')}
             </Link>
             <a href="/#reviews" className="text-white/90 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
