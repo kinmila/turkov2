@@ -25,6 +25,7 @@ const topicRoutes: Record<string, string> = {
   "On the Language of the Body": "/book/on-body-language",
   "On Family": "/book/on-family",
   "Architectural Spaces": "/book/architectural-spaces",
+  "On Architectural Spaces": "/book/architectural-spaces",
   "Everyday Life": "/book/everyday-life",
   "Rituals and Mysteries": "/book/rituals-and-mysteries",
   "On Art": "/book/on-art",
