@@ -69,5 +69,13 @@ All colors MUST be HSL.
       font-size: 1.0625rem; /* 17px instead of 16px */
       line-height: 1.6;
     }
+    
+    /* Book pages - even larger text on mobile */
+    .font-lora p,
+    .font-lora li,
+    .font-lora span {
+      font-size: 1.125rem; /* 18px for better readability */
+      line-height: 1.7;
+    }
   }
 }
