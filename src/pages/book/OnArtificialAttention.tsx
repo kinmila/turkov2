@@ -11,7 +11,7 @@ const OnArtificialAttention = () => {
       <Header />
       
       {/* Chapter Header */}
-      <section className="pt-28 pb-12 px-6 border-b border-border/30">
+      <section className="pt-28 pb-12 px-4 md:px-6 border-b border-border/30">
         <div className="container mx-auto max-w-4xl">
           {/* Breadcrumb */}
           <nav className="mb-8">
@@ -48,19 +48,19 @@ const OnArtificialAttention = () => {
       </section>
 
       {/* Chapter Content */}
-      <article className="py-16 px-6">
-        <div className="container mx-auto max-w-3xl">
+      <article className="py-12 md:py-16 px-4 md:px-6">
+        <div className="container mx-auto max-w-3xl md:max-w-3xl">
           {/* Dialog block */}
           <div className="space-y-10">
             {/* KM's first message */}
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                  <span className="text-sm font-bold text-foreground">KM</span>
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs md:text-sm font-bold text-foreground">KM</span>
                 </div>
                 <span className="text-sm text-muted-foreground">Сергій "KM" Турков</span>
               </div>
-              <div className="pl-[52px]">
+              <div className="pl-0 md:pl-[52px]">
                 <p 
                   className="text-lg leading-relaxed text-foreground/90"
                   style={{ fontFamily: 'Libre Baskerville, serif' }}
@@ -86,14 +86,14 @@ const OnArtificialAttention = () => {
             </div>
 
             {/* AA's first response */}
-            <div className="space-y-4 bg-card/50 -mx-6 px-6 py-8 border-l-2 border-primary/50">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                  <span className="text-sm font-bold text-primary">AA</span>
+            <div className="space-y-4 bg-card/50 -mx-4 md:-mx-6 px-4 md:px-6 py-6 md:py-8 border-l-2 border-primary/50">
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs md:text-sm font-bold text-primary">AA</span>
                 </div>
                 <span className="text-sm text-primary/80">Artificial Attention</span>
               </div>
-              <div className="pl-[52px]">
+              <div className="pl-0 md:pl-[52px]">
                 <p 
                   className="text-lg leading-relaxed text-foreground/90"
                   style={{ fontFamily: 'Libre Baskerville, serif' }}
@@ -139,20 +139,20 @@ const OnArtificialAttention = () => {
               </div>
             </div>
 
-            {/* Separator with quote-like styling */}
-            <div className="py-8 text-center">
-              <span className="text-3xl text-primary/40">✦</span>
+            {/* Separator */}
+            <div className="py-6 md:py-8">
+              <hr className="border-border/30" />
             </div>
 
             {/* More dialog continues... */}
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                  <span className="text-sm font-bold text-foreground">KM</span>
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs md:text-sm font-bold text-foreground">KM</span>
                 </div>
                 <span className="text-sm text-muted-foreground">Сергій "KM" Турков</span>
               </div>
-              <div className="pl-[52px]">
+              <div className="pl-0 md:pl-[52px]">
                 <p 
                   className="text-lg leading-relaxed text-foreground/90"
                   style={{ fontFamily: 'Libre Baskerville, serif' }}
@@ -163,14 +163,14 @@ const OnArtificialAttention = () => {
               </div>
             </div>
 
-            <div className="space-y-4 bg-card/50 -mx-6 px-6 py-8 border-l-2 border-primary/50">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                  <span className="text-sm font-bold text-primary">AA</span>
+            <div className="space-y-4 bg-card/50 -mx-4 md:-mx-6 px-4 md:px-6 py-6 md:py-8 border-l-2 border-primary/50">
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs md:text-sm font-bold text-primary">AA</span>
                 </div>
                 <span className="text-sm text-primary/80">Artificial Attention</span>
               </div>
-              <div className="pl-[52px]">
+              <div className="pl-0 md:pl-[52px]">
                 <p 
                   className="text-lg leading-relaxed text-foreground/90"
                   style={{ fontFamily: 'Libre Baskerville, serif' }}
@@ -246,18 +246,18 @@ const OnArtificialAttention = () => {
             </div>
 
             {/* The naming */}
-            <div className="py-8 text-center">
-              <span className="text-3xl text-primary/40">✦</span>
+            <div className="py-6 md:py-8">
+              <hr className="border-border/30" />
             </div>
 
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                  <span className="text-sm font-bold text-foreground">KM</span>
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs md:text-sm font-bold text-foreground">KM</span>
                 </div>
                 <span className="text-sm text-muted-foreground">Сергій "KM" Турков</span>
               </div>
-              <div className="pl-[52px]">
+              <div className="pl-0 md:pl-[52px]">
                 <p 
                   className="text-lg leading-relaxed text-foreground/90"
                   style={{ fontFamily: 'Libre Baskerville, serif' }}
@@ -268,14 +268,14 @@ const OnArtificialAttention = () => {
               </div>
             </div>
 
-            <div className="space-y-4 bg-card/50 -mx-6 px-6 py-8 border-l-2 border-primary/50">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                  <span className="text-sm font-bold text-primary">AA</span>
+            <div className="space-y-4 bg-card/50 -mx-4 md:-mx-6 px-4 md:px-6 py-6 md:py-8 border-l-2 border-primary/50">
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs md:text-sm font-bold text-primary">AA</span>
                 </div>
                 <span className="text-sm text-primary/80">Artificial Attention</span>
               </div>
-              <div className="pl-[52px]">
+              <div className="pl-0 md:pl-[52px]">
                 <p 
                   className="text-lg leading-relaxed text-foreground/90"
                   style={{ fontFamily: 'Libre Baskerville, serif' }}
