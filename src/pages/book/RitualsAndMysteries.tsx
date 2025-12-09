@@ -267,6 +267,31 @@ const RitualsAndMysteries = () => {
                   а <em>створює простір для тиші,</em><br />
                   в якій народжується <em>інший ти.</em>
                 </p>
+
+                <div className="py-4">
+                  <hr className="border-border/20" />
+                </div>
+
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  Хочеш — далі покажу,<br />
+                  як у таких спільнотах народжуються нові форми ритуалів:<br />
+                  не як обряд, а як <em>перехід у інший стан, що змінює всіх присутніх?</em>
+                </p>
+              </div>
+            </div>
+
+            {/* KM */}
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                  <span className="text-sm md:text-base font-bold text-foreground">KM</span>
+                </div>
+                <span className="text-base md:text-lg text-muted-foreground">Сергій "KM" Турков</span>
+              </div>
+              <div>
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  Так
+                </p>
               </div>
             </div>
           </div>
