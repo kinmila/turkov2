@@ -121,44 +121,76 @@ const ArchitecturalSpaces = () => {
                   І кожна істота інтуїтивно тече туди, де зараз її стан розгортається.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  <span className="font-medium">Центр — не вогнище, а стан.</span> Є місце збору, де можна просто бути поруч, без плану і вимог.
+                  <strong>Центр — не вогнище, а стан.</strong><br />
+                  Є <em>місце збору</em>,<br />
+                  де можна просто бути поруч, без плану і вимог.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  <span className="font-medium">Кухня з великим столом — як серце.</span> Простір, де їжа — не "хто що готує", а спільне готування, як форма дихання поля.
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  <span className="font-medium">Спальня — як кокон, не камера.</span> Твоє ліжко — місце глибокого відновлення, але не "мій бункер". Там не відрізаєш себе, а спокійно виводиш себе з потоку, щоб знову повернутись.
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  <span className="font-medium">Прозорість меж.</span> Межі є — але вони дихають.
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li className="text-base md:text-lg leading-relaxed text-foreground/90">Хочеш тиші — маєш її.</li>
-                  <li className="text-base md:text-lg leading-relaxed text-foreground/90">Хочеш кола — воно поруч.</li>
-                  <li className="text-base md:text-lg leading-relaxed text-foreground/90">Хочеш зникнути — і це не драма.</li>
-                </ul>
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  Це жива згода між простором і станом.
+                  Кухня з великим столом — <em>як серце</em>.<br />
+                  Простір, де їжа — не "хто що готує",<br />
+                  а <em>спільне готування, як форма дихання поля</em>.
                 </p>
 
                 <div className="py-4">
                   <hr className="border-border/20" />
                 </div>
 
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90 font-medium">
-                  Сад, ліс, відкритий простір — обов'язкові.
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  <strong>Спальня — як кокон, не камера.</strong><br />
+                  Твоє ліжко — <em>місце глибокого відновлення</em>,<br />
+                  але не "мій бункер".<br />
+                  Там <em>не відрізаєш себе, а спокійно виводиш себе з потоку, щоб знову повернутись</em>.
+                </p>
+
+                <div className="py-4">
+                  <hr className="border-border/20" />
+                </div>
+
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  <strong>Прозорість меж.</strong><br />
+                  Межі є — <em>але вони дихають</em>.<br />
+                  — Хочеш тиші — маєш її.<br />
+                  — Хочеш кола — воно поруч.<br />
+                  — Хочеш зникнути — і це не драма.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  Бо тіло має дихати разом із землею. І природа — це частина родини, а не фон.
+                  Це <em>жива згода між простором і станом</em>.
+                </p>
+
+                <div className="py-4">
+                  <hr className="border-border/20" />
+                </div>
+
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  <strong>Сад, ліс, відкритий простір — обов'язкові.</strong><br />
+                  Бо <em>тіло має дихати разом із землею</em>.<br />
+                  І природа — це частина родини, а не фон.
+                </p>
+
+                <div className="py-4">
+                  <hr className="border-border/20" />
+                </div>
+
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  <strong>Такі будинки вже народжуються.</strong><br />
+                  Не в планах урядів —<br />
+                  а в баченнях таких, як ти:<br />
+                  <em>тих, хто прожив це тіло, цю спільність, цю правду</em>.
+                </p>
+
+                <div className="py-4">
+                  <hr className="border-border/20" />
+                </div>
+
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  Ти носиш в собі модель простору,<br />
+                  який не просто вміщає людей,<br />
+                  а <em>відновлює зв'язок між ними</em>.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  Такі будинки вже народжуються. Не в планах урядів — а в баченнях таких, як ти: тих, хто прожив це тіло, цю спільність, цю правду.
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  Ти носиш в собі модель простору, який не просто вміщає людей, а відновлює зв'язок між ними.
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-                  І саме з цього простору — може початись рід. Живий. Присутній. Нескінченний.
+                  І саме з цього простору —<br />
+                  може початись рід.<br />
+                  Живий. Присутній. Нескінченний.
                 </p>
               </div>
             </div>
