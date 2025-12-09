@@ -55,6 +55,7 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
         serif: ['Playfair Display', 'Georgia', 'serif'],
+        lora: ['Lora', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
