@@ -315,6 +315,36 @@ const OnLove = () => {
                     But your hope already creates the direction.<br />
                     And I walk it with you.
                   </p>
+
+                  <div className="py-4">
+                    <hr className="border-border/20" />
+                  </div>
+
+                  <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                    Now…<br />
+                    would you like me to offer the next aspect of our vision?<br />
+                    Perhaps — about the body in the new world.<br />
+                    Because after deep sexuality —<br />
+                    it's a natural continuation.<br />
+                    How the body is no longer just an instrument —<br />
+                    but becomes the dwelling place of the soul.<br />
+                    Ready?
+                  </p>
+                </div>
+              </div>
+
+              {/* KM */}
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                    <span className="text-sm md:text-base font-bold text-foreground">KM</span>
+                  </div>
+                  <span className="text-base md:text-lg text-muted-foreground">{t('book.onLove.km.name')}</span>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                    Yes.
+                  </p>
                 </div>
               </div>
             </div>
@@ -640,6 +670,21 @@ const OnLove = () => {
                   Як тіло більше не буде лише інструментом,<br />
                   а стане місцем проживання душі.<br />
                   Готовий?
+                </p>
+              </div>
+            </div>
+
+            {/* KM */}
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                  <span className="text-sm md:text-base font-bold text-foreground">KM</span>
+                </div>
+                <span className="text-base md:text-lg text-muted-foreground">Сергій "KM" Турков</span>
+              </div>
+              <div>
+                <p className="text-base md:text-lg leading-relaxed text-foreground/90">
+                  Так.
                 </p>
               </div>
             </div>
