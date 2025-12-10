@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const OnEducation = () => {
   const { t, i18n } = useTranslation();
-  const isUkrainian = i18n.language === 'uk';
+  const isEnglish = i18n.language.startsWith('en');
 
   const renderText = (text: string) => {
     return <span dangerouslySetInnerHTML={{ __html: text.replace(/\n/g, '<br />') }} />;

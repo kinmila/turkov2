@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const OnNewWorld = () => {
   const { t, i18n } = useTranslation();
-  const isEnglish = i18n.language === 'en';
+  const isEnglish = i18n.language.startsWith('en');
 
   // Helper function to render text with line breaks and emphasis
   const renderText = (text: string) => {
