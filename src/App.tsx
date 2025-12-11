@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Book from "./pages/Book";
+import ChapterMarkdown from "./pages/ChapterMarkdown";
 import OnArtificialAttention from "./pages/book/OnArtificialAttention";
 import OnNewWorld from "./pages/book/OnNewWorld";
 import OnEducation from "./pages/book/OnEducation";
@@ -35,7 +36,8 @@ const App = () => (
           <Route path="/book/on-artificial-attention" element={<OnArtificialAttention />} />
           <Route path="/book/on-new-world" element={<OnNewWorld />} />
           <Route path="/book/on-education" element={<OnEducation />} />
-          <Route path="/book/on-love" element={<OnLove />} />
+          {/* Using new markdown-based component */}
+          <Route path="/book/on-love" element={<ChapterMarkdown />} />
           <Route path="/book/on-body-language" element={<OnBodyLanguage />} />
           <Route path="/book/on-family" element={<OnFamily />} />
           <Route path="/book/architectural-spaces" element={<ArchitecturalSpaces />} />
