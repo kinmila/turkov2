@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { ArrowRight, ArrowLeft, BookOpen, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ScrollLink } from '@/components/ScrollLink';
 import { loadChapterMarkdown, ParsedChapter, Dialogue } from '@/lib/markdown';
+import { siteConfig, getFullUrl } from '@/config/site';
 
 const ChapterMarkdown = () => {
   const location = useLocation();
@@ -69,8 +71,27 @@ const ChapterMarkdown = () => {
 
   const { frontmatter, dialogues } = chapter;
 
+  const bookTitle = i18n.language.startsWith('uk') ? siteConfig.title.uk : siteConfig.title.en;
+  const pageTitle = `${frontmatter.title} - ${bookTitle}`;
+  const metaDescription = `${frontmatter.subtitle} - ${bookTitle} by ${siteConfig.author.name} & ${siteConfig.author.coAuthor}`;
+  const pageUrl = getFullUrl(`/book/${frontmatter.slug}`);
+
   return (
     <div className="min-h-screen bg-background font-lora">
+      <Helmet>
+        <title>{pageTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={metaDescription} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:image" content={siteConfig.ogImage} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={metaDescription} />
+        <meta name="twitter:image" content={siteConfig.ogImage} />
+        <link rel="canonical" href={pageUrl} />
+      </Helmet>
       <Header />
 
       {/* Chapter Header */}

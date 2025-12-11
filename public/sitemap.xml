@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://turkov.ch/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Book Contents Page -->
+  <url>
+    <loc>https://turkov.ch/book</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Chapter Pages -->
+  <url>
+    <loc>https://turkov.ch/book/on-artificial-attention</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-new-world</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-education</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-love</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-body-language</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-family</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/architectural-spaces</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/everyday-life</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/rituals-and-mysteries</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-art</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/sense-of-time</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-community</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-war</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://turkov.ch/book/on-death</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

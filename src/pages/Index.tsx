@@ -8,12 +8,17 @@ import Testimonials from "@/components/Testimonials";
 import amazonIcon from "@/assets/amazon-icon.webp";
 import googleDocsIcon from "@/assets/google-docs-icon.webp";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>{t('bookShowcase.title')} - Serhii KM Turkov</title>
+        <meta name="description" content={t('bookShowcase.description1')} />
+      </Helmet>
       <Header />
       <BookShowcase />
       <Authors />
