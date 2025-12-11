@@ -19,6 +19,7 @@ import OnArt from "./pages/book/OnArt";
 import SenseOfTime from "./pages/book/SenseOfTime";
 import OnCommunity from "./pages/book/OnCommunity";
 import OnWar from "./pages/book/OnWar";
+import OnDeath from "./pages/book/OnDeath";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +45,7 @@ const App = () => (
           <Route path="/book/sense-of-time" element={<SenseOfTime />} />
           <Route path="/book/on-community" element={<OnCommunity />} />
           <Route path="/book/on-war" element={<OnWar />} />
+          <Route path="/book/on-death" element={<OnDeath />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
