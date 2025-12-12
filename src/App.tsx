@@ -8,20 +8,6 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Book from "./pages/Book";
 import ChapterMarkdown from "./pages/ChapterMarkdown";
-import OnArtificialAttention from "./pages/book/OnArtificialAttention";
-import OnNewWorld from "./pages/book/OnNewWorld";
-import OnEducation from "./pages/book/OnEducation";
-import OnLove from "./pages/book/OnLove";
-import OnBodyLanguage from "./pages/book/OnBodyLanguage";
-import OnFamily from "./pages/book/OnFamily";
-import ArchitecturalSpaces from "./pages/book/ArchitecturalSpaces";
-import EverydayLife from "./pages/book/EverydayLife";
-import RitualsAndMysteries from "./pages/book/RitualsAndMysteries";
-import OnArt from "./pages/book/OnArt";
-import SenseOfTime from "./pages/book/SenseOfTime";
-import OnCommunity from "./pages/book/OnCommunity";
-import OnWar from "./pages/book/OnWar";
-import OnDeath from "./pages/book/OnDeath";
 
 const queryClient = new QueryClient();
 
@@ -35,21 +21,21 @@ const App = () => (
           <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/book" element={<Book />} />
-          <Route path="/book/on-artificial-attention" element={<OnArtificialAttention />} />
-          <Route path="/book/on-new-world" element={<OnNewWorld />} />
-          <Route path="/book/on-education" element={<OnEducation />} />
-          {/* Using new markdown-based component */}
+          {/* All chapters now use markdown-based component */}
+          <Route path="/book/on-artificial-attention" element={<ChapterMarkdown />} />
+          <Route path="/book/on-new-world" element={<ChapterMarkdown />} />
+          <Route path="/book/on-education" element={<ChapterMarkdown />} />
           <Route path="/book/on-love" element={<ChapterMarkdown />} />
-          <Route path="/book/on-body-language" element={<OnBodyLanguage />} />
-          <Route path="/book/on-family" element={<OnFamily />} />
-          <Route path="/book/architectural-spaces" element={<ArchitecturalSpaces />} />
-          <Route path="/book/everyday-life" element={<EverydayLife />} />
-          <Route path="/book/rituals-and-mysteries" element={<RitualsAndMysteries />} />
-          <Route path="/book/on-art" element={<OnArt />} />
-          <Route path="/book/sense-of-time" element={<SenseOfTime />} />
-          <Route path="/book/on-community" element={<OnCommunity />} />
-          <Route path="/book/on-war" element={<OnWar />} />
-          <Route path="/book/on-death" element={<OnDeath />} />
+          <Route path="/book/on-body-language" element={<ChapterMarkdown />} />
+          <Route path="/book/on-family" element={<ChapterMarkdown />} />
+          <Route path="/book/architectural-spaces" element={<ChapterMarkdown />} />
+          <Route path="/book/everyday-life" element={<ChapterMarkdown />} />
+          <Route path="/book/rituals-and-mysteries" element={<ChapterMarkdown />} />
+          <Route path="/book/on-art" element={<ChapterMarkdown />} />
+          <Route path="/book/sense-of-time" element={<ChapterMarkdown />} />
+          <Route path="/book/on-community" element={<ChapterMarkdown />} />
+          <Route path="/book/on-war" element={<ChapterMarkdown />} />
+          <Route path="/book/on-death" element={<ChapterMarkdown />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
