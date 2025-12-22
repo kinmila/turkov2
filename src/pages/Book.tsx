@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 
 // Map topic titles to their routes
 const topicRoutes: Record<string, string> = {
+  // Chapter 1 (Ukrainian)
   "Про Штучну Увагу": "/book/on-artificial-attention",
   "Про Новий світ": "/book/on-new-world",
   "Про освіту": "/book/on-education",
@@ -17,8 +18,35 @@ const topicRoutes: Record<string, string> = {
   "Ритуали та містерії": "/book/rituals-and-mysteries",
   "Про мистецтво": "/book/on-art",
   "Про відчуття часу": "/book/sense-of-time",
+
+  // Chapter 2 (Ukrainian) - Additional chapters
   "Про спільноти": "/book/on-community",
   "Про війну": "/book/on-war",
+  "Про смерть": "/book/on-death",
+  "Про зв'язок з природою": "/book/connection-with-nature",
+  "Про час і теперішність": "/book/birth-of-new-time",
+  "Про проєкти і прояв у світі": "/book/projects-and-manifestation",
+  "Про команди": "/book/about-teams",
+  "Про натхнення": "/book/inspiration",
+  "Цикл та структури живої дії": "/book/cycle-of-living-action",
+  "Взаємодія зі старим світом": "/book/interaction-with-old-world",
+  "Живі альянси": "/book/living-alliances",
+  "Про зміни": "/book/about-changes",
+  "Рух, що змінює тканину світу": "/book/movement-changing-fabric",
+
+  // Chapter 3 (Ukrainian) - Extended chapters
+  "Нова економіка": "/book/new-economy",
+  "Новий тип фінансів": "/book/new-type-of-finances",
+  "Етика та мораль": "/book/ethics-and-morality",
+
+  // Extended versions (Ukrainian)
+  "Про спільноту": "/book/on-community-extended",
+  "Зв'язок із природою": "/book/connection-with-nature",
+  "Народження нового часу": "/book/birth-of-new-time",
+  "Спільна творчість і проєкти": "/book/projects-and-manifestation",
+  "Натхнення": "/book/inspiration",
+  "Цикл живої дії": "/book/cycle-of-living-action",
+
   // English versions
   "On Artificial Attention": "/book/on-artificial-attention",
   "On the New World": "/book/on-new-world",

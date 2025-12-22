@@ -134,6 +134,22 @@ export const loadChapterMarkdown = async (
       'on-community': '12',
       'on-war': '13',
       'on-death': '14',
+      'on-community-extended': '15',
+      'on-war-extended': '16',
+      'on-death-extended': '17',
+      'connection-with-nature': '18',
+      'birth-of-new-time': '19',
+      'projects-and-manifestation': '20',
+      'about-teams': '21',
+      'inspiration': '22',
+      'cycle-of-living-action': '23',
+      'interaction-with-old-world': '24',
+      'living-alliances': '25',
+      'about-changes': '26',
+      'movement-changing-fabric': '27',
+      'new-economy': '28',
+      'new-type-of-finances': '29',
+      'ethics-and-morality': '30',
     };
 
     const fileNumber = chapterMap[slug];

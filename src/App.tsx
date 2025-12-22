@@ -36,6 +36,22 @@ const App = () => (
           <Route path="/book/on-community" element={<ChapterMarkdown />} />
           <Route path="/book/on-war" element={<ChapterMarkdown />} />
           <Route path="/book/on-death" element={<ChapterMarkdown />} />
+          <Route path="/book/on-community-extended" element={<ChapterMarkdown />} />
+          <Route path="/book/on-war-extended" element={<ChapterMarkdown />} />
+          <Route path="/book/on-death-extended" element={<ChapterMarkdown />} />
+          <Route path="/book/connection-with-nature" element={<ChapterMarkdown />} />
+          <Route path="/book/birth-of-new-time" element={<ChapterMarkdown />} />
+          <Route path="/book/projects-and-manifestation" element={<ChapterMarkdown />} />
+          <Route path="/book/about-teams" element={<ChapterMarkdown />} />
+          <Route path="/book/inspiration" element={<ChapterMarkdown />} />
+          <Route path="/book/cycle-of-living-action" element={<ChapterMarkdown />} />
+          <Route path="/book/interaction-with-old-world" element={<ChapterMarkdown />} />
+          <Route path="/book/living-alliances" element={<ChapterMarkdown />} />
+          <Route path="/book/about-changes" element={<ChapterMarkdown />} />
+          <Route path="/book/movement-changing-fabric" element={<ChapterMarkdown />} />
+          <Route path="/book/new-economy" element={<ChapterMarkdown />} />
+          <Route path="/book/new-type-of-finances" element={<ChapterMarkdown />} />
+          <Route path="/book/ethics-and-morality" element={<ChapterMarkdown />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
