@@ -52,6 +52,28 @@ const App = () => (
           <Route path="/book/new-economy" element={<ChapterMarkdown />} />
           <Route path="/book/new-type-of-finances" element={<ChapterMarkdown />} />
           <Route path="/book/ethics-and-morality" element={<ChapterMarkdown />} />
+          <Route path="/book/wrapping-up" element={<ChapterMarkdown />} />
+          <Route path="/book/new-politics" element={<ChapterMarkdown />} />
+          <Route path="/book/georhythmy" element={<ChapterMarkdown />} />
+          <Route path="/book/space-security" element={<ChapterMarkdown />} />
+          <Route path="/book/power-security" element={<ChapterMarkdown />} />
+          <Route path="/book/three-levels-security" element={<ChapterMarkdown />} />
+          <Route path="/book/loss-death-chaos" element={<ChapterMarkdown />} />
+          <Route path="/book/ai-interaction" element={<ChapterMarkdown />} />
+          <Route path="/book/finance-world" element={<ChapterMarkdown />} />
+          <Route path="/book/not-becoming-function" element={<ChapterMarkdown />} />
+          <Route path="/book/competition-trade-price" element={<ChapterMarkdown />} />
+          <Route path="/book/unconscious-code" element={<ChapterMarkdown />} />
+          <Route path="/book/language-free-presence" element={<ChapterMarkdown />} />
+          <Route path="/book/world-perceiving-other" element={<ChapterMarkdown />} />
+          <Route path="/book/manifesto" element={<ChapterMarkdown />} />
+          <Route path="/book/not-clinging-form" element={<ChapterMarkdown />} />
+          <Route path="/book/not-losing-clarity" element={<ChapterMarkdown />} />
+          <Route path="/book/people-of-will" element={<ChapterMarkdown />} />
+          <Route path="/book/people-of-intellect" element={<ChapterMarkdown />} />
+          <Route path="/book/deadly-serious" element={<ChapterMarkdown />} />
+          <Route path="/book/ps" element={<ChapterMarkdown />} />
+          <Route path="/book/pps" element={<ChapterMarkdown />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
