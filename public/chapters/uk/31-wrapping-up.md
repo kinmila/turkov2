@@ -2,6 +2,7 @@
 title: "Загортання"
 subtitle: "стан зменшення, коли частина не витримує нової частоти поля"
 order: 31
+intro: "Друга спіраль: Проявлення"
 slug: "wrapping-up"
 prevChapter: "ethics-and-morality"
 prevChapterTitle: "Етика і мораль"

@@ -2,6 +2,7 @@
 title: "Три рівні живої безпеки в суспільстві"
 subtitle: "система, яка підсилює присутність кожного зсередини"
 order: 36
+intro: "Друга спіраль: Проявлення"
 slug: "three-levels-security"
 prevChapter: "power-security"
 prevChapterTitle: "Силова безпека"

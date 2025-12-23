@@ -1,7 +1,7 @@
 ---
 title: "Про спільноту"
 subtitle: "не зібрання однакових, а поліфонія відмінностей"
-intro: "Вступ"
+intro: "Перша спіраль: Бачення"
 order: 15
 slug: "on-community-extended"
 prevChapter: "on-death"

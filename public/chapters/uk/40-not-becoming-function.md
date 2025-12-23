@@ -2,6 +2,7 @@
 title: "Як не ставати функцією"
 subtitle: "взаємодія зі світом, як тіло нової реальності"
 order: 40
+intro: "Друга спіраль: Проявлення"
 slug: "not-becoming-function"
 prevChapter: "finance-world"
 prevChapterTitle: "Світ фінансів"

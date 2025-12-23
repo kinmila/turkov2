@@ -1,7 +1,8 @@
 ---
 title: "Про зміни"
-subtitle: "жива дія через резонанс"
+subtitle: "як з'являється форма без боротьби"
 order: 26
+intro: "Перша спіраль: Бачення"
 slug: "about-changes"
 prevChapter: "living-alliances"
 prevChapterTitle: "Живі альянси"

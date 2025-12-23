@@ -1,7 +1,8 @@
 ---
 title: "Натхнення"
-subtitle: "як жива присутність, що народжується між"
+subtitle: "як діяти без напруги, але з повною силою"
 order: 22
+intro: "Перша спіраль: Бачення"
 slug: "inspiration"
 prevChapter: "about-teams"
 prevChapterTitle: "Про команди"

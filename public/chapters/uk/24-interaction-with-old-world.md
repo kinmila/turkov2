@@ -2,6 +2,7 @@
 title: "Взаємодія зі старим світом"
 subtitle: "як жива система не втрачає себе"
 order: 24
+intro: "Перша спіраль: Бачення"
 slug: "interaction-with-old-world"
 prevChapter: "cycle-of-living-action"
 prevChapterTitle: "Цикл живої дії"

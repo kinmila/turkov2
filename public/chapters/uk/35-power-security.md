@@ -2,6 +2,7 @@
 title: "Силова безпека"
 subtitle: "як глибинна етика сили, а не система контролю"
 order: 35
+intro: "Друга спіраль: Проявлення"
 slug: "power-security"
 prevChapter: "space-security"
 prevChapterTitle: "Безпека простору"

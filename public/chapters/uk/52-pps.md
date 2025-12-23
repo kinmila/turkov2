@@ -1,6 +1,7 @@
 ---
 title: "P.P.S. Парварті і Шива"
 subtitle: "Без глюків. Без форми. Без шуму."
+intro: "P.P.S."
 order: 52
 slug: "pps"
 prevChapter: "ps"

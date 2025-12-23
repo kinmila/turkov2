@@ -2,6 +2,7 @@
 title: "Світ, що сприймає інше"
 subtitle: "присутність, яка вже не ховається"
 order: 44
+intro: "Друга спіраль: Проявлення"
 slug: "world-perceiving-other"
 prevChapter: "language-free-presence"
 prevChapterTitle: "Мова присутності"

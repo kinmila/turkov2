@@ -1,7 +1,8 @@
 ---
 title: "Рух, що змінює тканину світу"
-subtitle: "спільнота з вогню істини"
+subtitle: "поле — спільнота — дія"
 order: 27
+intro: "Перша спіраль: Бачення"
 slug: "movement-changing-fabric"
 prevChapter: "about-changes"
 prevChapterTitle: "Про зміни"

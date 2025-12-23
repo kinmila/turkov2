@@ -2,6 +2,7 @@
 title: "Безпека простору"
 subtitle: "вміння тримати простір від того, що не резонує"
 order: 34
+intro: "Друга спіраль: Проявлення"
 slug: "space-security"
 prevChapter: "georhythmy"
 prevChapterTitle: "Георитмія"

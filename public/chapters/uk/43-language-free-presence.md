@@ -2,6 +2,7 @@
 title: "Мова вільної присутності"
 subtitle: "для чужинців нового світу"
 order: 43
+intro: "Друга спіраль: Проявлення"
 slug: "language-free-presence"
 prevChapter: "unconscious-code"
 prevChapterTitle: "Несвідомий код"

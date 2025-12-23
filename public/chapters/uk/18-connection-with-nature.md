@@ -2,6 +2,7 @@
 title: "Зв'язок із природою"
 subtitle: "світ як жива істота"
 order: 18
+intro: "Перша спіраль: Бачення"
 slug: "connection-with-nature"
 prevChapter: "on-death-extended"
 prevChapterTitle: "Про смерть (розширений)"

@@ -2,6 +2,7 @@
 title: "Несвідомий сценарний код"
 subtitle: "мова старого колективного поля"
 order: 42
+intro: "Друга спіраль: Проявлення"
 slug: "unconscious-code"
 prevChapter: "competition-trade-price"
 prevChapterTitle: "Конкуренція, Торгівля"

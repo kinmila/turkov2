@@ -2,6 +2,7 @@
 title: "Смертельно серйозне ставлення"
 subtitle: "формування етичної позиції"
 order: 50
+intro: "Післяслово: Тиша яка говорить"
 slug: "deadly-serious"
 prevChapter: "people-of-intellect"
 prevChapterTitle: "Людям інтелекту"

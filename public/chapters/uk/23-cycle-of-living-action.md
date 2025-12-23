@@ -2,6 +2,7 @@
 title: "Цикл живої дії"
 subtitle: "що сам себе підтримує"
 order: 23
+intro: "Перша спіраль: Бачення"
 slug: "cycle-of-living-action"
 prevChapter: "inspiration"
 prevChapterTitle: "Натхнення"

@@ -2,6 +2,7 @@
 title: "Взаємодія зі світом фінансів"
 subtitle: "як відкрити нову форму присутності всередині старої структури"
 order: 39
+intro: "Друга спіраль: Проявлення"
 slug: "finance-world"
 prevChapter: "ai-interaction"
 prevChapterTitle: "Штучний Інтелект"

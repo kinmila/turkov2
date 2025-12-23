@@ -2,6 +2,7 @@
 title: "Про смерть"
 subtitle: "жива смерть і егрегор смерті"
 order: 17
+intro: "Перша спіраль: Бачення"
 slug: "on-death-extended"
 prevChapter: "on-war-extended"
 prevChapterTitle: "Про війну (розширений)"

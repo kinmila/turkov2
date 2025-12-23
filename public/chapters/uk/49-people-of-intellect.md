@@ -2,6 +2,7 @@
 title: "Людям інтелекту"
 subtitle: "розум, що звільнився від самого себе"
 order: 49
+intro: "Післяслово: Тиша яка говорить"
 slug: "people-of-intellect"
 prevChapter: "people-of-will"
 prevChapterTitle: "Людям волі"

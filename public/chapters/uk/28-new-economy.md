@@ -1,7 +1,8 @@
 ---
 title: "Нова економіка"
-subtitle: "рух узгодженості та достатку"
+subtitle: "як довіра стає валютою нової реальності"
 order: 28
+intro: "Друга спіраль: Проявлення"
 slug: "new-economy"
 prevChapter: "movement-changing-fabric"
 prevChapterTitle: "Рух, що змінює тканину світу"

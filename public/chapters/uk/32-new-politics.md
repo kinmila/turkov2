@@ -2,6 +2,7 @@
 title: "Нова політика"
 subtitle: "Як простір узгодження спільного ритму"
 order: 32
+intro: "Друга спіраль: Проявлення"
 slug: "new-politics"
 prevChapter: "wrapping-up"
 prevChapterTitle: "Загортання"

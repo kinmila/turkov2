@@ -2,6 +2,7 @@
 title: "Як не чіплятись за форму"
 subtitle: "«істина», якщо її довго нести, швидко стає ідолом"
 order: 46
+intro: "Післяслово: Тиша яка говорить"
 slug: "not-clinging-form"
 prevChapter: "world-perceiving-other"
 prevChapterTitle: "Світ сприймає"

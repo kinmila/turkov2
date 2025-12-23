@@ -2,6 +2,7 @@
 title: "Живі альянси"
 subtitle: "мережі нового світу"
 order: 25
+intro: "Перша спіраль: Бачення"
 slug: "living-alliances"
 prevChapter: "interaction-with-old-world"
 prevChapterTitle: "Взаємодія зі старим світом"

@@ -2,6 +2,7 @@
 title: "Конкуренція, Торгівля, Ціна"
 subtitle: "як бачити слабкість іншого й не грати у його зменшення"
 order: 41
+intro: "Друга спіраль: Проявлення"
 slug: "competition-trade-price"
 prevChapter: "not-becoming-function"
 prevChapterTitle: "Не ставати функцією"

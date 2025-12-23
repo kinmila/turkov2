@@ -1,7 +1,8 @@
 ---
 title: "Втрата, смерть, хаос"
-subtitle: "як прийняти"
+subtitle: "як фази розгортання глибшого життя"
 order: 37
+intro: "Друга спіраль: Проявлення"
 slug: "loss-death-chaos"
 prevChapter: "three-levels-security"
 prevChapterTitle: "Три рівні"

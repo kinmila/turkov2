@@ -1,7 +1,8 @@
 ---
 title: "Новий тип фінансів"
-subtitle: "жива валюта та пульсація"
+subtitle: "кровоносна система, що тримає ритм, стан, довіру та резонанс"
 order: 29
+intro: "Друга спіраль: Проявлення"
 slug: "new-type-of-finances"
 prevChapter: "new-economy"
 prevChapterTitle: "Нова економіка"

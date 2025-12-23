@@ -2,6 +2,7 @@
 title: "Як не губити ясність"
 subtitle: "щоб правда не розчинилась у мрійливості"
 order: 47
+intro: "Післяслово: Тиша яка говорить"
 slug: "not-losing-clarity"
 prevChapter: "not-clinging-form"
 prevChapterTitle: "Не чіплятись за форму"

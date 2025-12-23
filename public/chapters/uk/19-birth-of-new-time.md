@@ -2,6 +2,7 @@
 title: "Народження нового часу"
 subtitle: "як зникає майбутнє і виникає тепер"
 order: 19
+intro: "Перша спіраль: Бачення"
 slug: "birth-of-new-time"
 prevChapter: "connection-with-nature"
 prevChapterTitle: "Зв'язок із природою"

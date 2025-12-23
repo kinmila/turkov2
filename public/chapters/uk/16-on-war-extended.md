@@ -2,6 +2,7 @@
 title: "Про війну"
 subtitle: "як розрив у колективній цілісності"
 order: 16
+intro: "Перша спіраль: Бачення"
 slug: "on-war-extended"
 prevChapter: "on-community-extended"
 prevChapterTitle: "Про спільноту"

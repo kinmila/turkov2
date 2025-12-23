@@ -2,6 +2,7 @@
 title: "Дотик Правди"
 subtitle: "голос світу, який народився"
 order: 45
+intro: "Маніфест"
 slug: "manifesto"
 prevChapter: "world-perceiving-other"
 prevChapterTitle: "Світ, що сприймає інше"

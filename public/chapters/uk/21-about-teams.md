@@ -1,7 +1,8 @@
 ---
 title: "Про команди"
-subtitle: "які народжуються у новому ритмі"
+subtitle: "у яких рівень резонансу сильніший за резюме"
 order: 21
+intro: "Перша спіраль: Бачення"
 slug: "about-teams"
 prevChapter: "projects-and-manifestation"
 prevChapterTitle: "Спільна творчість і проєкти"

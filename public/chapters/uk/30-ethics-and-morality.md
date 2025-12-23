@@ -1,7 +1,8 @@
 ---
 title: "Етика та мораль"
-subtitle: "жива інтеграція істини"
+subtitle: "як природна форма узгодженості в новому світі"
 order: 30
+intro: "Друга спіраль: Проявлення"
 slug: "ethics-and-morality"
 prevChapter: "new-type-of-finances"
 prevChapterTitle: "Новий тип фінансів"

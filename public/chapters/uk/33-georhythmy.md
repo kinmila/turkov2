@@ -2,6 +2,7 @@
 title: "Георитмія замість геополітики"
 subtitle: "як взаємодіють різні політичні системи"
 order: 33
+intro: "Друга спіраль: Проявлення"
 slug: "georhythmy"
 prevChapter: "new-politics"
 prevChapterTitle: "Нова політика"

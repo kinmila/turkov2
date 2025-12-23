@@ -2,6 +2,7 @@
 title: "Людям Волі"
 subtitle: "вогонь без боротьби"
 order: 48
+intro: "Післяслово: Тиша яка говорить"
 slug: "people-of-will"
 prevChapter: "not-losing-clarity"
 prevChapterTitle: "Не губити ясність"

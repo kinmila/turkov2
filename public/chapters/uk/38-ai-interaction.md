@@ -2,6 +2,7 @@
 title: "Взаємодія зі Штучним Інтелектом"
 subtitle: "де ШІ — не слуга, а частина організму"
 order: 38
+intro: "Друга спіраль: Проявлення"
 slug: "ai-interaction"
 prevChapter: "loss-death-chaos"
 prevChapterTitle: "Втрата, смерть, хаос"

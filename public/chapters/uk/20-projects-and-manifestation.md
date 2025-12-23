@@ -2,6 +2,7 @@
 title: "Спільна творчість і проєкти"
 subtitle: "як діяти без зменшення себе"
 order: 20
+intro: "Перша спіраль: Бачення"
 slug: "projects-and-manifestation"
 prevChapter: "birth-of-new-time"
 prevChapterTitle: "Народження нового часу"
