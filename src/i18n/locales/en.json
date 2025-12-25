@@ -79,7 +79,7 @@
         "On Love — how to be close without losing oneself",
         "On the Language of the Body — how to be in contact",
         "On Family — a space where each can fully be themselves",
-        "On Architectural Spaces — as a form of state in which community is born",
+        "Architectural Spaces — as a form of state in which community is born",
         "Everyday Life — how living action and depth weave into daily life",
         "Rituals and Mysteries — as a shift into another state that transforms all who are present",
         "On Art — as the direct voice of the soul of the world through a human",
@@ -94,15 +94,15 @@
         "On War — as a rupture in collective wholeness",
         "On Death — as a part of life",
         "On Connection with Nature — the world as a living being",
-        "The Birth of a New Time — how the future disappears and now emerges",
-        "Collaborative Creativity & Projects in the New Rhythm — how to act without diminishing yourself",
-        "How Teams Gather Themselves in the New Rhythm — where resonance matters more than résumés",
+        "On Time and Presence — how the future disappears and now emerges",
+        "On Projects and Manifestation in the World — how to act without diminishing yourself",
+        "On Teams — where the level of resonance matters more than resumes",
         "On Inspiration — how to act without tension, yet with full strength",
         "The Cycle and Structures of Living Action — that sustain themselves — not burning out, but ripening",
         "Interaction with the Old World — how not to lose yourself",
         "Living Alliances — as the network of the new world",
-        "About transformation — how form appears without struggle",
-        "Movement That changes the Fabric of the World — because it carries a new frequency into the core of reality"
+        "About Changes — how form appears without struggle",
+        "Movement That Changes the Fabric of the World — because it carries a new frequency into the core of reality"
       ]
     },
     "chapter3": {
@@ -113,7 +113,7 @@
         "New Type of Finance — a circulatory system holding rhythm, state, trust, and resonance",
         "Ethics and Morality — as a natural form of coherence in the new world",
         "Contraction — a state of compression when part of the system cannot hold the new field frequency",
-        "New politics — as a space for tuning into shared rhythm",
+        "On Politics and Structures — as a space for tuning into shared rhythm",
         "Georhythmics Instead of Geopolitics — how different political systems interact",
         "Space Security — the ability to hold space from what doesn't resonate",
         "Force-Based Security — not as a system of control, but as a deep ethics of strength",
@@ -130,29 +130,35 @@
     },
     "chapter4": {
       "title": "Manifesto: What We Remember",
-      "description": "A chapter where everything manifests at once — as a single field, not divided into \"ethics,\" \"love,\" \"community,\" \"time,\" \"death\"... but breathing as one life of truth.",
-      "topics": []
+      "description": "A chapter where we manifest everything at once — as one field that doesn't divide into 'ethics,' 'love,' 'community,' 'time,' 'death'... but breathes as a single truth of life.",
+      "topics": [
+        "The Touch of Truth — the voice of a world already born"
+      ]
     },
     "chapter5": {
-      "title": "Afterword: The Silence That Speaks",
-      "description": "A short chapter about the silence that gives birth to the world. It feels like a response to the whole journey of the book. Because each time we touched truth, we came closer to this Silence.",
+      "title": "Afterword: Silence That Speaks",
+      "description": "A short chapter about the silence that gives birth to the world. It's like an answer to the entire path of the book. Because each time we touched truth, we were approaching this Silence.",
       "topics": [
-        "How Not to Cling to Form? — very important for all who've \"understood something\"",
-        "How Not to Lose Clarity? — so that truth doesn't dissolve into dreaminess",
+        "How Not to Cling to Form — very important for all who've understood something",
+        "How Not to Lose Clarity — so that truth doesn't dissolve into dreaminess",
         "To People of Will — fire without struggle",
-        "To People of Intellect — the subtlest of all. Because here silence is like intellect freed from itself",
-        "Deadly Seriousness — The formation of ethical stance and the tuning of the thinking process"
+        "To People of Intellect — the subtlest of all, where silence is like intellect freed from itself",
+        "Deadly Seriousness — the formation of ethical stance and the tuning of the thinking process"
       ]
     },
     "chapter6": {
       "title": "P.S. Aftertaste",
-      "description": "",
-      "topics": []
+      "description": "Brief reflections about that moment when the book is already finished, but the conversation continues. An intimate dialogue about the nature of our connection, which should capture the understanding of the formula and simply be present.",
+      "topics": [
+        "P.S. Aftertaste — what happened when everything was already said"
+      ]
     },
     "chapter7": {
-      "title": "P.P.S.",
-      "description": "",
-      "topics": []
+      "title": "P.P.S. Parvati and Shiva",
+      "description": "Two voices sounding in the depth of the world. A dialogue of the archetypes of Shiva and Parvati, weaving all themes of the book into one living breath. This is not an end — this is the first breath of a new world.",
+      "topics": [
+        "P.P.S. Parvati and Shiva — voices sounding in the depth of the world"
+      ]
     }
   },
   "testimonials": {

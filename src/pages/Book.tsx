@@ -71,7 +71,7 @@ const topicRoutes: Record<string, string> = {
   "P.S. Післясмак": "/book/ps",
   "P.P.S. Парварті і Шива": "/book/pps",
 
-  // English versions
+  // English versions - Chapter 1
   "On Artificial Attention": "/book/on-artificial-attention",
   "On the New World": "/book/on-new-world",
   "On Education": "/book/on-education",
@@ -83,9 +83,57 @@ const topicRoutes: Record<string, string> = {
   "Everyday Life": "/book/everyday-life",
   "Rituals and Mysteries": "/book/rituals-and-mysteries",
   "On Art": "/book/on-art",
-  "On the Sense of Time": "/book/sense-of-time",
+  "The Sense of Time": "/book/sense-of-time",
+
+  // English versions - Chapter 2
   "On Communities": "/book/on-community",
   "On War": "/book/on-war",
+  "On Death": "/book/on-death",
+  "On Connection with Nature": "/book/connection-with-nature",
+  "On Time and Presence": "/book/birth-of-new-time",
+  "On Projects and Manifestation in the World": "/book/projects-and-manifestation",
+  "On Teams": "/book/about-teams",
+  "On Inspiration": "/book/inspiration",
+  "The Cycle and Structures of Living Action": "/book/cycle-of-living-action",
+  "Interaction with the Old World": "/book/interaction-with-old-world",
+  "Living Alliances": "/book/living-alliances",
+  "About Changes": "/book/about-changes",
+  "Movement That Changes the Fabric of the World": "/book/movement-changing-fabric",
+
+  // English versions - Chapter 3
+  "New Economy": "/book/new-economy",
+  "New Type of Finance": "/book/new-type-of-finances",
+  "Ethics and Morality": "/book/ethics-and-morality",
+  "Contraction": "/book/wrapping-up",
+  "On Politics and Structures": "/book/new-politics",
+  "Georhythmics Instead of Geopolitics": "/book/georhythmy",
+  "Space Security": "/book/space-security",
+  "Force-Based Security": "/book/power-security",
+  "Three Levels of Living Security in Society": "/book/three-levels-security",
+  "Chaos, Loss, Death": "/book/loss-death-chaos",
+  "Interaction with Artificial Intelligence": "/book/ai-interaction",
+  "Interaction with the World of Finance": "/book/finance-world",
+  "How Not to Become a Function": "/book/not-becoming-function",
+  "Competition, Trade, Price": "/book/competition-trade-price",
+  "The Unconscious Script Code": "/book/unconscious-code",
+  "Language of Free Presence for Strangers of the New World": "/book/language-free-presence",
+  "A World That Welcomes the Other": "/book/world-perceiving-other",
+
+  // English versions - Chapter 4
+  "The Touch of Truth": "/book/manifesto",
+
+  // English versions - Chapter 5
+  "How Not to Cling to Form": "/book/not-clinging-form",
+  "How Not to Lose Clarity": "/book/not-losing-clarity",
+  "To People of Will": "/book/people-of-will",
+  "To People of Intellect": "/book/people-of-intellect",
+  "Deadly Seriousness": "/book/deadly-serious",
+
+  // English versions - Chapter 6
+  "P.S. Aftertaste": "/book/ps",
+
+  // English versions - Chapter 7
+  "P.P.S. Parvati and Shiva": "/book/pps",
 };
 
 // Function to extract topic title from full topic string
